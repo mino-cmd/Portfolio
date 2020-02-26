@@ -35,8 +35,14 @@
         width: 50%;
     }
     
-    .jbT {
+    .Jumbotrone {
         background-color: #3638333d;
+    }
+    
+    #selfi {
+        position: absolute;
+        width: 10%;
+        left: 60%;
     }
     
     .txtCollection {
@@ -62,6 +68,7 @@
     .firstPic {
         position: relative;
         top: 32px;
+        left: 199px;
     }
     
     .secondPic {

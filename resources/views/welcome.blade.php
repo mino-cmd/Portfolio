@@ -8,6 +8,8 @@
 
     <title>Laravel</title>
     <!--Bootstrap Framwork-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
@@ -15,12 +17,9 @@
     <!-- Body of portfolio-->
     <link href="{{asset('css/portfolioBody.css')}}" rel="stylesheet">
 
-
 </head>
 
-<body>
-
-
+<body> 
 
     <div class="container-fluid">
         <div class="content">
@@ -36,13 +35,14 @@
         </div>
     </div>
 
-    <div class="jumbotron jbT">
+    <div class="jumbotron Jumbotrone">
         <div class="page-header">
             <div class="txtCollection">
+                <img class="img-thumbnail" id="selfi" src="/images/selfi.jpg" style="height: 320px">
                 <h1>Othman Adi :
                     <br>
                     <small>
-                        i am a self tough Programmer/Music Producer From Hama,Syria
+                        i am a self tough Programmer From Hama,Syria
                     </small>
                 </h1>
                 <h3>My mission in life is to Create and help
@@ -74,10 +74,10 @@
         </div>
         <div class="card-body">
             <div class="card-title">
-                hope you enjoyed Reading!
-                <a href="#" class="btn btn-light">
-                    Email me
-                </a>
+                Got a Questione
+                <i class="far fa-question-circle"></i>
+                <a href="#" class="btn btn-light ">
+                    Email me</a>
             </div>
         </div>
     </div>
@@ -91,7 +91,9 @@
     </div>
 
     <footer class="page-footer">
-
+        <!--Links directing to Public Profiles-->
+        <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
+        <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
         <div class="footer-copyright text-center py-3">@2020 copyright
     </footer>
 
