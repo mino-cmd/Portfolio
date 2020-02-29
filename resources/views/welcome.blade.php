@@ -16,10 +16,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <!-- Body of portfolio-->
     <link href="{{asset('css/portfolioBody.css')}}" rel="stylesheet">
+    <script type="text/javascript" src="{{asset('css/javaScriptPortfolio.js')}}"></script>
 
 </head>
 
-<body> 
+<body>
 
     <div class="container-fluid">
         <div class="content">
@@ -38,14 +39,15 @@
     <div class="jumbotron Jumbotrone">
         <div class="page-header">
             <div class="txtCollection">
-                <img class="img-thumbnail" id="selfi" src="/images/selfi.jpg" style="height: 320px">
+                <img class="img" id="selfi" src="/images/selfi.jpg" style="height: 320px">
                 <h1>Othman Adi :
                     <br>
                     <small>
                         i am a self tough Programmer From Hama,Syria
                     </small>
                 </h1>
-                <h3>My mission in life is to Create and help
+                <h3>
+                    My mission in life is to Create and help
                 </h3>
                 <br>
                 ------
@@ -59,11 +61,25 @@
         </div>
     </div>
 
-
-    <div class="dropdown-divider"></div>
-
+    <!--Button Change Layout-->
+    <div class="btn-group-sm Bgroup" role="group" aria-label="...">
+        <button type="button" class="btn btn-default btnDefault" onclick="hideThecard(Cards)">Layout 1</button>
+        <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
+    </div>
     <!--CV-->
-    <div class="card">
+    <div class="card cardZ" id="Cardz">
+        <!--My curriculum vitae-->
+        <h1>Hello world</h1>
+        <div class="">
+            <div class="">
+                <img class="" src="">
+            </div>
+            <!--My curriculum vitae-->
+            <img class="" src="">
+        </div>
+    </div>
+    <!--CV-->
+    <div class="card cardC" id="Cards">
         <!--My curriculum vitae-->
         <div class="cv">
             <div class="containFirstpic">
@@ -72,29 +88,71 @@
             <!--My curriculum vitae-->
             <img class="secondPic" src="/images/cvII.png" style="height:1550px ; width:450px">
         </div>
-        <div class="card-body">
+        <div class="card-body CardBody">
             <div class="card-title">
                 Got a Questione
                 <i class="far fa-question-circle"></i>
                 <a href="#" class="btn btn-light ">
                     Email me</a>
+                <!--Links directing to Public Profiles-->
+                <div class="box boxx">
+                    <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
+                    <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
+                </div>
             </div>
         </div>
     </div>
-
-    <!--Empty Links to be used-->
+    <!--Empty Links to be used->
     <div class="links">
         <a href=""></a>
         <a href=""></a>
         <a href=""></a>
         <a href=""></a>
     </div>
+<--end-->
+    <script>
+        var Cards = document.getElementById('Cards');
 
+        function showDiv(Cards) {
+            Cards.style.display = "inherit";
+        }
+
+        function closeDiv(Cards) {
+            Cards.style.display = "none";
+        }
+
+        function hideThecard(Cards) {
+            if (Cards.style.display === "inherit") {
+                closeDiv(Cards)
+            } else {
+                showDiv(Cards)
+            }
+        };
+        /*this is the cond function*/
+
+
+        var Cardz = document.getElementById('Cardz');
+
+        function showDiv(Cardz) {
+            Cardz.style.display = "inherit";
+        }
+
+        function closeDiv(Cardz) {
+            Cardz.style.display = "none";
+        }
+
+        function hidetheIICard(Cardz) {
+            if (Cardz.style.display === "inherit") {
+                closeDiv(Cardz)
+            } else {
+                showDiv(Cardz)
+            }
+        };
+    </script>
     <footer class="page-footer">
-        <!--Links directing to Public Profiles-->
-        <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
-        <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
         <div class="footer-copyright text-center py-3">@2020 copyright
+        </div>
+
     </footer>
 
 </body>
