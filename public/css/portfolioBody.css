@@ -42,11 +42,40 @@
         font-family: 'Raleway';
     }
     /*Edges and Card Text*/
+    /*Slide Two*/
     
     .cardZ {
         background-color: #2c2b29;
         display: none;
     }
+    
+    .cvS2 {
+        background-color: #3638333d;
+    }
+    
+    .containFirstpicS2 {
+        position: relative;
+        left: 20px;
+    }
+    
+    .firstPicS2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .secondPicS2 {
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Pagination*/
+    
+    .pagination {
+        position: relative;
+        left: 40%;
+    }
+    /*First Slide*/
     
     .cardC {
         background-color: #2c2b29;

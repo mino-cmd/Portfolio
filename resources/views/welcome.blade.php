@@ -64,45 +64,63 @@
     <!--Button Change Layout-->
     <div class="btn-group-sm Bgroup" role="group" aria-label="...">
         <button type="button" class="btn btn-default btnDefault" onclick="hideThecard(Cards)">Layout 1</button>
-        <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
+        <!--out for now !-> <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
+    <end-->
     </div>
     <!--CV-->
     <div class="card cardZ" id="Cardz">
         <!--My curriculum vitae-->
-        <h1>Hello world</h1>
-        <div class="">
-            <div class="">
-                <img class="" src="">
+        <center>
+            <h1>Hello world</h1>
+        </center>
+        <!--CV-->
+        <div class="cvS2">
+            <div class="containFirstpicS2"  id="showSlide1">
+                <img class="firstPicS2" src="/images/cv.png" style="height:1550px ; width:550px">
+
             </div>
-            <!--My curriculum vitae-->
-            <img class="" src="">
+            <div class="containFirstpicS2" id="SwitchSlide">
+                <img class="secondPicS2" src="/images/cvII.png" style="height:1550px ; width:450px">
+            </div>
         </div>
+        <!--Pagination-->
+        <nav aria-label="pagination">
+            <ul class="pagination">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span></a>
+                <li class="page-item"><button onclick="Slidein(SwitchSLide)"> <a class="page-link">1</a></button></li>
+                <!--Button to be Added later->  <li class="page-item"><button> <a class="page-link">2</a></button></li><end of Button-->
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&raquo;</span> </a>
+            </ul>
+            <img class="" src="">
+        </nav>
     </div>
     <!--CV-->
-    <div class="card cardC" id="Cards">
-        <!--My curriculum vitae-->
-        <div class="cv">
-            <div class="containFirstpic">
-                <img class="firstPic" src="/images/cv.png" style="height:1550px ; width:550px">
-            </div>
-            <!--My curriculum vitae-->
-            <img class="secondPic" src="/images/cvII.png" style="height:1550px ; width:450px">
-        </div>
-        <div class="card-body CardBody">
-            <div class="card-title">
-                Got a Questione
-                <i class="far fa-question-circle"></i>
-                <a href="#" class="btn btn-light ">
-                    Email me</a>
-                <!--Links directing to Public Profiles-->
-                <div class="box boxx">
-                    <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
-                    <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
+                <div class="card cardC" id="Cards">
+                    <!--My curriculum vitae-->
+                    <div class="cv">
+                        <div class="containFirstpic">
+                            <img class="firstPic" src="/images/cv.png" style="height:1550px ; width:550px">
+                        </div>
+                        <!--My curriculum vitae Slids-->
+                        <img class="secondPic" src="/images/cvII.png" style="height:1550px ; width:450px">
+                    </div>
+                    <div class="card-body CardBody">
+                        <div class="card-title">
+                            Got a Questione
+                            <i class="far fa-question-circle"></i>
+                            <a href="#" class="btn btn-light ">
+                                Email me</a>
+                            <!--Links directing to Public Profiles-->
+                            <div class="box boxx">
+                                <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
+                                <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!--Empty Links to be used->
+                <!--Empty Links to be used->
     <div class="links">
         <a href=""></a>
         <a href=""></a>
@@ -110,51 +128,60 @@
         <a href=""></a>
     </div>
 <--end-->
-    <script>
-        var Cards = document.getElementById('Cards');
+                <script>
+                    var Cards = document.getElementById('Cards');
 
-        function showDiv(Cards) {
-            Cards.style.display = "inherit";
-        }
+                    function showDiv(Cards) {
+                        Cards.style.display = "inherit";
+                    }
 
-        function closeDiv(Cards) {
-            Cards.style.display = "none";
-        }
+                    function closeDiv(Cards) {
+                        Cards.style.display = "none";
+                    }
 
-        function hideThecard(Cards) {
-            if (Cards.style.display === "inherit") {
-                closeDiv(Cards)
-            } else {
-                showDiv(Cards)
-            }
-        };
-        /*this is the cond function*/
+                    function hideThecard(Cards) {
+                        if (Cards.style.display === "inherit") {
+                            closeDiv(Cards),
+                                /*change to second slide*/
+                                showDiv(Cardz)
+                        } else {
+                            showDiv(Cards),
+                                /*change to second slide*/
+                                closeDiv(Cardz)
+                        }
 
+                    };
 
-        var Cardz = document.getElementById('Cardz');
+                    var SwitchSlide = document.getElementById('SwitchSlide');
+                    var showSlide1 = document.getElementById('showSlide1');
 
-        function showDiv(Cardz) {
-            Cardz.style.display = "inherit";
-        }
+                    function showSlide1(showSlide1){
+                        SwitchSlide.style.display = "none";
+                    }
 
-        function closeDiv(Cardz) {
-            Cardz.style.display = "none";
-        }
+                    function SwitchSlide2(SwitchSlide){
+                        SwitchSlide.style.display = "block";
+                    }
 
-        function hidetheIICard(Cardz) {
-            if (Cardz.style.display === "inherit") {
-                closeDiv(Cardz)
-            } else {
-                showDiv(Cardz)
-            }
-        };
-    </script>
-    <footer class="page-footer">
-        <div class="footer-copyright text-center py-3">@2020 copyright
-        </div>
+                    function SwitchSlide(SwitchSlide){
+                        if (SwitchSlide.style.display === "none"){
+                            showSlide1(showSlide1),
+                            SwitchSlide2(SwitchSlide)
+                        } else { SwitchSlide2(SwitchSlide),
+                            showSlide1(showSlide1)
+                        }
+                    };
+                </script>
+                <!--later->
+    <div class="classname">
+        <//?php include("/path/to/file.html"); ?>
+    </div>
+    <--later-->
+                <footer class="page-footer">
+                    <div class="footer-copyright text-center py-3">@2020 copyright
+                    </div>
 
-    </footer>
-
+                </footer>
 </body>
 
 </html>
