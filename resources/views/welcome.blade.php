@@ -67,60 +67,59 @@
         <!--out for now !-> <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
     <end-->
     </div>
-    <!--CV-->
+
     <div class="card cardZ" id="Cardz">
         <!--My curriculum vitae-->
         <center>
             <h1>Hello world</h1>
         </center>
-        <!--CV-->
-        <div class="cvS2">
-            <div class="containFirstpicS2"  id="showSlide1">
-                <img class="firstPicS2" src="/images/cv.png" style="height:1550px ; width:550px">
+        <!--SLids-->
+        <div class="BodyofSlideTwo">
+            <div class="container ContainerOfslids">
+                <ul id="slides">
+                    <li class="slide showing">
+                        <p id="NameofSlide">Slide 1</p>
+                    </li>
+                    <li class="slide">
+                        <p id="NameofSlide">Slide 2</p>
+                    </li>
 
-            </div>
-            <div class="containFirstpicS2" id="SwitchSlide">
-                <img class="secondPicS2" src="/images/cvII.png" style="height:1550px ; width:450px">
+                </ul>
+                <div class="buttons">
+                    <button type="button" class="btn btn-default controls" id="previous">&lt;</button>
+
+                    <button type="button" class="btn btn-default controls" id="pause">&#10074;&#10074;</button>
+
+                    <button type="button" class="btn btn-default controls" id="next">&gt;</button>
+                </div>
             </div>
         </div>
-        <!--Pagination-->
-        <nav aria-label="pagination">
-            <ul class="pagination">
-                <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span></a>
-                <li class="page-item"><button onclick="Slidein(SwitchSLide)"> <a class="page-link">1</a></button></li>
-                <!--Button to be Added later->  <li class="page-item"><button> <a class="page-link">2</a></button></li><end of Button-->
-                <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&raquo;</span> </a>
-            </ul>
-            <img class="" src="">
-        </nav>
     </div>
     <!--CV-->
-                <div class="card cardC" id="Cards">
-                    <!--My curriculum vitae-->
-                    <div class="cv">
-                        <div class="containFirstpic">
-                            <img class="firstPic" src="/images/cv.png" style="height:1550px ; width:550px">
-                        </div>
-                        <!--My curriculum vitae Slids-->
-                        <img class="secondPic" src="/images/cvII.png" style="height:1550px ; width:450px">
-                    </div>
-                    <div class="card-body CardBody">
-                        <div class="card-title">
-                            Got a Questione
-                            <i class="far fa-question-circle"></i>
-                            <a href="#" class="btn btn-light ">
-                                Email me</a>
-                            <!--Links directing to Public Profiles-->
-                            <div class="box boxx">
-                                <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
-                                <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
-                            </div>
-                        </div>
-                    </div>
+    <div class="card cardC" id="Cards">
+        <!--My curriculum vitae-->
+        <div class="cv">
+            <div class="containFirstpic">
+                <img class="firstPic" src="/images/cv.png" style="height:1550px ; width:550px">
+            </div>
+            <!--My curriculum vitae Slids-->
+            <img class="secondPic" src="/images/cvII.png" style="height:1550px ; width:450px">
+        </div>
+        <div class="card-body CardBody">
+            <div class="card-title">
+                Got a Questione
+                <i class="far fa-question-circle"></i>
+                <a href="#" class="btn btn-light ">
+                    Email me</a>
+                <!--Links directing to Public Profiles-->
+                <div class="box boxx">
+                    <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
+                    <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
                 </div>
-                <!--Empty Links to be used->
+            </div>
+        </div>
+    </div>
+    <!--Empty Links to be used->
     <div class="links">
         <a href=""></a>
         <a href=""></a>
@@ -128,60 +127,110 @@
         <a href=""></a>
     </div>
 <--end-->
-                <script>
-                    var Cards = document.getElementById('Cards');
+    <script>
+        var Cards = document.getElementById('Cards');
 
-                    function showDiv(Cards) {
-                        Cards.style.display = "inherit";
-                    }
+        function showDiv(Cards) {
+            Cards.style.display = "inherit";
+        }
 
-                    function closeDiv(Cards) {
-                        Cards.style.display = "none";
-                    }
+        function closeDiv(Cards) {
+            Cards.style.display = "none";
+        }
 
-                    function hideThecard(Cards) {
-                        if (Cards.style.display === "inherit") {
-                            closeDiv(Cards),
-                                /*change to second slide*/
-                                showDiv(Cardz)
-                        } else {
-                            showDiv(Cards),
-                                /*change to second slide*/
-                                closeDiv(Cardz)
-                        }
+        function hideThecard(Cards) {
+            if (Cards.style.display === "inherit") {
+                closeDiv(Cards),
+                    /*change to second slide*/
+                    showDiv(Cardz)
+            } else {
+                showDiv(Cards),
+                    /*change to second slide*/
+                    closeDiv(Cardz)
+            }
 
-                    };
+        }
 
-                    var SwitchSlide = document.getElementById('SwitchSlide');
-                    var showSlide1 = document.getElementById('showSlide1');
+        var controls = document.querySelectorAll('.controls');
+        for (var i = 0; i < controls.length; i++) {
+            controls[i].style.display = 'inline-block';
+        }
 
-                    function showSlide1(showSlide1){
-                        SwitchSlide.style.display = "none";
-                    }
+        var slides = document.querySelectorAll('#slides .slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 2000);
 
-                    function SwitchSlide2(SwitchSlide){
-                        SwitchSlide.style.display = "block";
-                    }
+        function nextSlide() {
+            goToSlide(currentSlide + 1);
+        }
 
-                    function SwitchSlide(SwitchSlide){
-                        if (SwitchSlide.style.display === "none"){
-                            showSlide1(showSlide1),
-                            SwitchSlide2(SwitchSlide)
-                        } else { SwitchSlide2(SwitchSlide),
-                            showSlide1(showSlide1)
-                        }
-                    };
-                </script>
-                <!--later->
+        function previousSlide() {
+            goToSlide(currentSlide - 1);
+        }
+
+        function goToSlide(n) {
+            slides[currentSlide].className = 'slide';
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].className = 'slide showing';
+        }
+
+
+        var playing = true;
+        var pauseButton = document.getElementById('pause');
+
+        function pauseSlideshow() {
+            pauseButton.innerHTML = '&#9658;'; // play character
+            playing = false;
+            clearInterval(slideInterval);
+        }
+
+        function playSlideshow() {
+            pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
+            playing = true;
+            slideInterval = setInterval(nextSlide, 2000);
+        }
+
+        pauseButton.onclick = function() {
+            if (playing) {
+                pauseSlideshow();
+            } else {
+                playSlideshow();
+            }
+        };
+        var next = document.getElementById('next');
+        var previous = document.getElementById('previous');
+
+        next.onclick = function() {
+            pauseSlideshow();
+            nextSlide();
+        };
+        previous.onclick = function() {
+            pauseSlideshow();
+            previousSlide();
+        };
+
+        //Control By JS Activation on Browser         
+        var controls = document.querySelectorAll('.controls');
+        for (var i = 0; i < controls.length; i++) {
+            controls[i].style.display = 'inline-block';
+        }
+        //Slids wont be ListedOut in case of JS isnt Acivated
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.position = 'absolute';
+        }
+    </script>
+    <!--later->
     <div class="classname">
         <//?php include("/path/to/file.html"); ?>
     </div>
     <--later-->
-                <footer class="page-footer">
-                    <div class="footer-copyright text-center py-3">@2020 copyright
-                    </div>
+    <footer class="page-footer">
+        <div class="footer-copyright text-center py-3">@2020 copyright
+        </div>
 
-                </footer>
+    </footer>
+    </div>
+
 </body>
 
 </html>
