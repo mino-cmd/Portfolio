@@ -110,7 +110,10 @@
                 Got a Questione
                 <i class="far fa-question-circle"></i>
                 <a href="#" class="btn btn-light ">
-                    Email me</a>
+                    <?php
+                    echo "Mail Service"
+                    ?>
+                </a>
                 <!--Links directing to Public Profiles-->
                 <div class="box boxx">
                     <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
