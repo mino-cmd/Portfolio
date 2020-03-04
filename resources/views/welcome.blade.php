@@ -16,12 +16,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <!-- Body of portfolio-->
     <link href="{{asset('css/portfolioBody.css')}}" rel="stylesheet">
-    <script type="text/javascript" src="{{asset('css/javaScriptPortfolio.js')}}"></script>
 
 </head>
 
 <body>
-
     <div class="container-fluid">
         <div class="content">
             <!--laravel code-->
@@ -81,7 +79,7 @@
                         <p id="NameofSlide">Slide 1</p>
                     </li>
                     <li class="slide">
-                        <p id="NameofSlide">Slide 2</p>
+                        <p id="NameofSlide2">Slide 2</p>
                     </li>
 
                 </ul>
@@ -161,7 +159,7 @@
 
         var slides = document.querySelectorAll('#slides .slide');
         var currentSlide = 0;
-        var slideInterval = setInterval(nextSlide, 2000);
+        var slideInterval = setInterval(nextSlide, 5000);
 
         function nextSlide() {
             goToSlide(currentSlide + 1);
@@ -184,13 +182,13 @@
         function pauseSlideshow() {
             pauseButton.innerHTML = '&#9658;'; // play character
             playing = false;
-            clearInterval(slideInterval);
+            clearInterval(slideInterval, );
         }
 
         function playSlideshow() {
             pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
             playing = true;
-            slideInterval = setInterval(nextSlide, 2000);
+            slideInterval = setInterval(nextSlide, );
         }
 
         pauseButton.onclick = function() {
@@ -205,7 +203,7 @@
 
         next.onclick = function() {
             pauseSlideshow();
-            nextSlide();
+            nextSlide(nextSlide, );
         };
         previous.onclick = function() {
             pauseSlideshow();
