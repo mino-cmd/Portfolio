@@ -74,15 +74,15 @@
         <!--SLids-->
         <div class="BodyofSlideTwo">
             <div class="container ContainerOfslids">
-                <ul id="slides">
-                    <li class="slide showing">
-                        <p id="NameofSlide">Slide 1</p>
-                    </li>
-                    <li class="slide">
-                        <p id="NameofSlide2">Slide 2</p>
-                    </li>
+                    <ul id="slides">
+                        <li class="slide showing">
+                            <p id="NameofSlide">Slide 1</p>
+                        </li>
+                        <li class="slide">
+                            <p id="NameofSlide2">Slide 2</p>
+                        </li>
 
-                </ul>
+                    </ul>
                 <div class="buttons">
                     <button type="button" class="btn btn-default controls" id="previous">&lt;</button>
 
