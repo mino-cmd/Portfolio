@@ -40,24 +40,28 @@
     <div class="jumbotron Jumbotrone">
         <div class="page-header">
             <div class="txtCollection">
-                <img class="img" id="selfi" src="/images/selfi.jpg" style="height: 320px">
-                <h1>Othman Adi :
+                <div id="backgroundImage"></div>
+                <!--BackgroundImage  Container-->
+                <div id="rePostion">
+                    <img class="img" id="selfi" src="/images/selfi.jpg" style="height: 320px">
+                    <h1>Othman Adi :
+                        <br>
+                        <small>
+                            i am a self tough Programmer From Hama,Syria
+                        </small>
+                    </h1>
+                    <h3>
+                        My mission in life is to Create and help
+                    </h3>
                     <br>
-                    <small>
-                        i am a self tough Programmer From Hama,Syria
-                    </small>
-                </h1>
-                <h3>
-                    My mission in life is to Create and help
-                </h3>
-                <br>
-                ------
-                <br>
-                ------
-                <br>
-                ------
-                <br>
-                ------
+                    ------
+                    <br>
+                    ------
+                    <br>
+                    ------
+                    <br>
+                    ------
+                </div>
             </div>
         </div>
     </div>
