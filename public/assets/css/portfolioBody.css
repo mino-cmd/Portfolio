@@ -7,11 +7,6 @@
                 margin: 0;
                 background-color: #2c2b29;
             }
-            
-            .containerfluid {
-                background-color: #2c2b29;
-                height: auto;
-            }
             /*My Introduction Begins Here*/
             
             .content {
@@ -33,7 +28,7 @@
             }
             
             #backgroundImage {
-                background-image: url("/images/ds.jpg");
+                background-image: url("/assets/images/ds.jpg");
                 width: 100%;
                 height: 100%;
                 background-position: center top;
@@ -137,7 +132,7 @@
             }
             
             .slide:nth-of-type(1) {
-                background-image: url("/images/cv.png");
+                background-image: url("/assets/images/cv.png");
                 height: 100%;
                 width: 60%;
                 left: 30%;
@@ -146,7 +141,7 @@
             }
             
             .slide:nth-of-type(2) {
-                background-image: url("/images/cvII.png");
+                background-image: url("/assets/images/cvII.png");
                 height: 100%;
                 width: 60%;
                 left: 10%;
@@ -155,6 +150,7 @@
             }
             
             .cardZ {
+                color: inherit;
                 background-color: #2c2b29;
                 display: none;
             }

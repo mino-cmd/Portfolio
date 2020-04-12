@@ -1,0 +1,1 @@
+@extends('blade-scafolding.layout.masterGrid')

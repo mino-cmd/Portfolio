@@ -20,7 +20,23 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <ol class="breadcrumb" id="fixedtopHeader">
+    <a href="..\otherfile\musicGridpage.php">MusicGrid</a>    
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!--Button Change Layout-->
+                    <div class="btn-group-sm Bgroup" role="group" aria-label="...">
+                        <p class="navbar-text">Take me to next layout!</p>
+                        <button type="button" class="btn btn-default btnDefault" onclick="hideThecard(Cards)">Layout 1</button>
+                        <!--out for now !-> <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
+    <end-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </ol> <!-- Nav bar to contain Views-->
+    <div class="container-fluid" id="container-fluid-for-content">
         <div class="content">
             <!--laravel code-->
             <div class="title">
@@ -64,13 +80,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <!--Button Change Layout-->
-    <div class="btn-group-sm Bgroup" role="group" aria-label="...">
-        <button type="button" class="btn btn-default btnDefault" onclick="hideThecard(Cards)">Layout 1</button>
-        <!--out for now !-> <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
-    <end-->
     </div>
 
     <div class="card cardZ" id="Cardz">

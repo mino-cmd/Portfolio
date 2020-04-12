@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('blade-scafolding.home');
+});
+
+Route::get('/masterGrid', function () {
+    return view('blade-scafolding.masterGrid');
+});
