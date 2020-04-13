@@ -13,4 +13,3 @@
     <!-- Body of portfolio-->
     <link href="/assets/css/portfolioBody.css" rel="stylesheet"/>
     <link href="/assets/css/MasterGridBody.css" rel="stylesheet"/>
-
