@@ -111,7 +111,7 @@
             </div>
         </div>
     </div>
-    <script>
+    <script>    
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();   
 });

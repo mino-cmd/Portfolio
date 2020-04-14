@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <ol class="breadcrumb" id="fixedtopHeader"> 
+    <ol class="breadcrumb" id="fixedtopHeader">
 
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -69,6 +69,13 @@
     </div>
 
     <div class="card cardZ" id="Cardz">
+        <div class="buttons">
+            <button type="button" class="btn btn-default controls" id="previous">&lt;</button>
+
+            <button type="button" class="btn btn-default controls" id="pause">&#10074;&#10074;</button>
+
+            <button type="button" class="btn btn-default controls" id="next">&gt;</button>
+        </div>
         <!--My curriculum vitae-->
         <center>
             <h1>Hello world</h1>
@@ -83,29 +90,29 @@
                     <li class="slide">
                         <p id="NameofSlide2">Slide 2</p>
                     </li>
-
+                    <li class="slide">
+                        <p id="NameofSlide">Slide 3</p>
+                    </li>
+                    <li class="slide">
+                        <p id="NameofSlide2">Slide 4</p>
+                    </li>
                 </ul>
-                <div class="buttons">
-                    <button type="button" class="btn btn-default controls" id="previous">&lt;</button>
-
-                    <button type="button" class="btn btn-default controls" id="pause">&#10074;&#10074;</button>
-
-                    <button type="button" class="btn btn-default controls" id="next">&gt;</button>
-                </div>
             </div>
         </div>
     </div>
     <!--CV-->
+    <iframe src="assets/CV.blade.php" id="Cards" class="parallax" style="border: none"></iframe>
+    <!--NotUsedNoMore--
     <div class="card cardC" id="Cards">
-        <!--My curriculum vitae-->
+        My curriculum vitae->
         <div class="cv">
             <div class="containFirstpic">
                 <img class="firstPic" src="/assets/images/cv.png" style="height:1550px ; width:550px">
             </div>
-            <!--My curriculum vitae Slids-->
+            My curriculum vitae Slids->
             <img class="secondPic" src="/assets/images/cvII.png" style="height:1550px ; width:450px">
         </div>
-        <!--Empty Links to be used->
+        Empty Links to be used->
     <div class="links">
         <a href=""></a>
         <a href=""></a>
@@ -113,13 +120,13 @@
         <a href=""></a>
     </div>
 <--end-->
-        @include('blade-scafolding.partials.scripts')
-        <!--later->
+    @include('blade-scafolding.partials.scripts')
+    <!--later->
     <div class="classname">
         <//?php include("/path/to/file.html"); ?>
     </div>
     <--later-->
-        @include('blade-scafolding.partials.footer')
+    @include('blade-scafolding.partials.footer')
     </div>
 
 </body>
