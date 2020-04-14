@@ -101,7 +101,7 @@
         </div>
     </div>
     <!--CV-->
-    <iframe src="assets/CV.blade.php" id="Cards" class="parallax" style="border: none"></iframe>
+    <iframe src="assets/CV.blade.php" id="Cards" class="parallax cardC" style="border: none"></iframe>
     <!--NotUsedNoMore--
     <div class="card cardC" id="Cards">
         My curriculum vitae->

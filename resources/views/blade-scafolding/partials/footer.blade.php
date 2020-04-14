@@ -5,7 +5,7 @@
             <i class="far fa-question-circle"></i>
             <a href="#" class="btn btn-light ">
                 <?php
-                echo "Mail Service"
+                echo "Holla at me"
                 ?>
             </a>
             <!--Links directing to Public Profiles-->
