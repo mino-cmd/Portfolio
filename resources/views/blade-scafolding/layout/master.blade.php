@@ -91,43 +91,63 @@
                         <p id="NameofSlide2">Slide 2</p>
                     </li>
                     <li class="slide">
-                        <p id="NameofSlide">Slide 3</p>
+                        <p id="NameofSlide2">Slide 3</p>
                     </li>
                     <li class="slide">
                         <p id="NameofSlide2">Slide 4</p>
+
                     </li>
+                    <p id="Displaybeneath">
+                        <p><code id="codeExample">
+                                <div class="boxtheCode">
+                                    function showDiv(Cards) {
+                                    Cards.style.display = "inherit";
+                                    }
+                            </code></p>
+                        <p><code id="codeExample">function closeDiv(Cards) {
+                                Cards.style.display = "none";
+                                }</code>
+                            <p><code id="codeExample">
+                                    var controls = document.querySelectorAll('.controls');</code></p>
+                            <p><code id="codeExample">for (var i = 0; i < controls.length; i++) { controls[i].style.display='inline-block' ; }</code> </p> <p><code id="codeExample"> var slides=document.querySelectorAll('#slides .slide'); var currentSlide=0; var slideInterval=setInterval(nextSlide, 5000); function nextSlide()</code> </p>
+                            <p><code id="codeExample"> { goToSlide(currentSlide + 1); }</code></p>
+                            <p>+HTML<br><code> div class="card cardZ" id="Cardz" </code>
+                                <!--end of example-->
                 </ul>
             </div>
         </div>
+        </p>
+    </div>
+    </div>
     </div>
     <!--CV-->
     <iframe src="assets/CV.blade.php" id="Cards" class="parallax cardC" style="border: none"></iframe>
-    <!--NotUsedNoMore--
-    <div class="card cardC" id="Cards">
-        My curriculum vitae->
-        <div class="cv">
-            <div class="containFirstpic">
-                <img class="firstPic" src="/assets/images/cv.png" style="height:1550px ; width:550px">
-            </div>
-            My curriculum vitae Slids->
-            <img class="secondPic" src="/assets/images/cvII.png" style="height:1550px ; width:450px">
-        </div>
-        Empty Links to be used->
-    <div class="links">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-    </div>
-<--end-->
-    @include('blade-scafolding.partials.scripts')
-    <!--later->
+    <a class="tesxtUnderSlids">
+        <!--NotUsedNoMore-- <div class="card cardC" id="Cards">
+                            My curriculum vitae->
+                            <div class="cv">
+                                <div class="containFirstpic">
+                                    <img class="firstPic" src="/assets/images/cv.png" style="height:1550px ; width:550px">
+                                </div>
+                                My curriculum vitae Slids->
+                                <img class="secondPic" src="/assets/images/cvII.png" style="height:1550px ; width:450px">
+                            </div>
+                            Empty Links to be used->
+                            <div class="links">
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                            </div>
+                            <--end-->
+        @include('blade-scafolding.partials.scripts')
+        <!--later->
     <div class="classname">
         <//?php include("/path/to/file.html"); ?>
     </div>
     <--later-->
-    @include('blade-scafolding.partials.footer')
-    </div>
+        @include('blade-scafolding.partials.footer')
+        </div>
 
 </body>
 

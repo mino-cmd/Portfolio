@@ -86,11 +86,7 @@
 
     <!--***************-->
     <!--Here comes the GRID-->
-    <button type="button" data-toggle="popover" title="Popover title" data-content="Here's some amazing content.">Click to toggle popover</button>
-
     <div class="container-fluid">
-        
-
         <div class="card" id="cardofSoundcloud">
             <div class="row">
                 <!--**FIRST COLUMN**-->
@@ -111,11 +107,11 @@
             </div>
         </div>
     </div>
-    <script>    
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
-});
-</script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
 
     <!--***************-->
     <!---End Of the GRID-->

@@ -89,4 +89,5 @@
         for (var i = 0; i < slides.length; i++) {
             slides[i].style.position = 'absolute';
         }
+        document.getElementById("Displaybeneath").innerHTML = "This slide was made with javascript"
     </script>
