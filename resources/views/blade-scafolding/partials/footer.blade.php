@@ -1,4 +1,4 @@
-
+<footer class="page-footer">
     <div class="card-body CardBody">
         <div class="card-title">
             Got a Questione
@@ -15,10 +15,7 @@
             </div>
         </div>
     </div>
-</div>
-
-<footer class="page-footer">
-    <div class="footer-copyright text-center py-3">@2020 copyright
+    <div class="footer-copyright text-center">@2020 copyright
     </div>
 
 </footer>

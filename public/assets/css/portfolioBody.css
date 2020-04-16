@@ -253,9 +253,21 @@ body {
 
 /**CARD BODY**/
 
+.page-footer {
+    bottom: 0;
+    width: 50%;
+}
+
 .CardBody {
+    bottom: 0;
     z-index: 1;
     background-color: #2c2b29;
+    /* Set the fixed height of the footer here */
+    /* Vertically center the text there */
+}
+
+.card-title {
+    bottom: 0;
 }
 
 
@@ -270,23 +282,26 @@ body {
     display: block;
 }
 
+.Displaybeneath {
+    top: 300px;
+}
+
 
 /*Links to public Profiles*/
 
 .boxx {
-    position: relative;
-    display: block;
-    left: 0px;
+    bottom: 0;
 }
 
 
 /*Footer*/
 
 .page-footer {
-    color: white;
-    background-color: #5253503d;
-    position: relative;
+    position: static;
     bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    line-height: 60px;
+    background-color: rgb(216, 208, 208);
+    /* Vertically center the text there */
 }

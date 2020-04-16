@@ -3,8 +3,6 @@
 
 <head>
     @include('blade-scafolding.partials.head')
-
-
 </head>
 
 <body>
@@ -40,7 +38,6 @@
             </div>
         </div>
     </div>
-
     <div class="jumbotron Jumbotrone">
         <div class="page-header">
             <div class="txtCollection">
@@ -86,33 +83,47 @@
 
     <!--***************-->
     <!--Here comes the GRID-->
-    <div class="container-fluid">
+    <!---CSS in MasterGrid-->
+    <div class="container mt-3">
         <div class="card" id="cardofSoundcloud">
             <div class="row">
-                <!--**FIRST COLUMN**-->
-                <div class="col-xs-3 col-md-3 offset-md-2">
-                    <button style="color: orange" type="button" class="btn btn-default" data-toggle="tooltip" data-placemnet="right" title="none">
-                        <a href="https://soundcloud.com/vhs2000/upset" class="thumbnail">
-                            <iframe width="100%" height="40%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/791443015&color=%23491da6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-                        </a>
-                        <a href="https://soundcloud.com/vhs2000/ilikedals" class="thumbnail"> <iframe width="100%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/785185321&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-                        </a>2020</button>
-                    <button style="color: orange" type="button" class="btn btn-default" data-toggle="tooltip" data-placemnet="left" title="none">
-                        <a href="https://soundcloud.com/tonie22/manufactured-without-addictive-additives" class="thumbnail"> <iframe width="100%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/232099575&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                        </a>2016
-                        <button style="color: orange" type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placemnet="left" data-content="HELOOOOOOO WORLLLDDD"></button> </button>
+                <div class="col-md-6">
+                    <div class="col-lg-10"> <a href="https://soundcloud.com/vhs2000/upset" class="thumbnail">
+                            <iframe width="100%" height="40%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/791443015&color=%23491da6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                            </iframe></div>
+                    <div class="demo-content">
+                        This Content was created in |2020|
+                    </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="col-lg-10"> <a href="https://soundcloud.com/vhs2000/upset" class="thumbnail">
+                            <iframe width="100%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/785185321&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                            </iframe>
+                    </div>
+                    <div class="demo-content big-alt">
+                        This Content was created in |2016|
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle="popover"]').popover();
-        });
-    </script>
+    <!--**FIRST COLUMN**\->
+    <div class="col-xs-3 col-md-3 offset-md-2">
+        <button style="color: orange" type="button" class="btn btn-default" data-toggle="tooltip" data-placemnet="right" title="none">
+            <a href="https://soundcloud.com/vhs2000/upset" class="thumbnail">
+                <iframe width="100%" height="40%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/791443015&color=%23491da6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
+            </a>
+            <a href="https://soundcloud.com/vhs2000/ilikedals" class="thumbnail">
+                <iframe width="100%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/785185321&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+            </a>2020</button>
+        <button style="color: orange" type="button" class="btn btn-default" data-toggle="tooltip" data-placemnet="left" title="none">
+            <a href="https://soundcloud.com/tonie22/manufactured-without-addictive-additives" class="thumbnail">
+                <iframe width="100%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/232099575&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </a>2016
+    </div>
     <!--***************-->
     <!---End Of the GRID-->
 
