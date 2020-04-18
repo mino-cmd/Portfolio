@@ -31,7 +31,7 @@
                         <div style="width:100%"><em><strong>Job E</strong></em><strong>rfahrung</strong>
                     <h3 id="39ef4d9d-890f-494b-98f5-ba31e039325f" class=""><strong><mark class="highlight-gray">Lehrkraft </mark></strong><strong>:</strong> <mark class="highlight-gray"><strong>Berlitz Digital School </strong></mark><strong><mark class="highlight-blue">Aktuell </mark></strong><mark class="highlight-yellow"><strong>CERTIFIDE</strong></mark></h3>
                         <li>Die Schulern mit Verschiedenen Tools die Logik, die hinter allen Programmiersprachen steckt</li>
-                        <li><a href="k">Spiele</a>, <a href="k">Apps</a>, <a href="k]">Webseite</a> Programmieren</li>
+                        <li>Spiele, Apps, Webseite Programmieren</li>
                         <li>Ziel ist es, dass die Schulern Kreative und Eigenständig experementiren anhand ein Konkrete Projekt zu fertigen</li>
                     <h3 id="65367726-c118-41a4-8dfb-2a04336101c7" class=""><mark class="highlight-gray">Lehrling</mark> : <strong><mark class="highlight-gray">Siemens </mark></strong><strong>Berlin</strong> <em>01.03.2019 - 01.09.2019</em> <mark class="highlight-yellow">CERTIFIDE</mark></h3>
                         <li>Arbeiten mit mechatronischen Systemen um Module aus Holz &amp; Metall zu realisieren und durch Maschinen und manuelle Werkzeuge zu fertigen </li>

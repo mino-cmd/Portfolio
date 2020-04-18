@@ -70,11 +70,11 @@
 
     <div class="card cardZ" id="Cardz">
         <div class="buttons">
-            <button type="button" class="btn btn-default controls" id="previous">&lt;</button>
+            <button type="button" class="btn btn-default controls playButton" id="previous">&lt;</button>
 
-            <button type="button" class="btn btn-default controls" id="pause">&#10074;&#10074;</button>
+            <button type="button" class="btn btn-default controls playButton" id="pause">&#10074;&#10074;</button>
 
-            <button type="button" class="btn btn-default controls" id="next">&gt;</button>
+            <button type="button" class="btn btn-default controls playButton" id="next">&gt;</button>
         </div>
         <!--My curriculum vitae-->
         <center>
