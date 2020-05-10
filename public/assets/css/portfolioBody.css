@@ -39,6 +39,14 @@ body {
     background-color: #3638333d;
 }
 
+.txtCollection {
+    color: white;
+    font-family: 'Raleway';
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+}
+
 #backgroundImage {
     background-image: url("/assets/images/ds.jpg");
     width: 100%;
@@ -58,16 +66,9 @@ body {
     width: 10%;
     left: 82%;
 }
-
-.txtCollection {
-    color: white;
-    font-family: 'Raleway';
-    width: 100%;
-    height: 300px;
-    background-color: transparent;
+.movetoOsteo{
+    background-color: white;
 }
-
-
 /*Edges and Card Text*/
 
 

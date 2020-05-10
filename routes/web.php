@@ -9,16 +9,20 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
-
-Route::get('/', function () {
-    return view('welcome');
+ */
+ Route::get('/', function () {
+    return view('blade-scafolding.layout.master');
 });
 
-Route::get('/home', function () {
-    return view('blade-scafolding.home');
-});
+ Route::get('/Osteopage', function () {
+    return view('blade-scafolding.layout.Osteopage');
+ });
 
-Route::get('/masterGrid', function () {
-    return view('blade-scafolding.masterGrid');
-});
+ Route::get('/home', function () {
+     return view('blade-scafolding.layout.master');
+  });
+  Route::get('/masterGrid', function () {
+      return view('blade-scafolding.layout.masterGrid');
+  });
+
+

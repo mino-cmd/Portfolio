@@ -1,4 +1,4 @@
-DirectoryIndex resources/home.blade.php 
+DirectoryIndex resources/views/blade-scafolding.layout.master.blade.php 
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews

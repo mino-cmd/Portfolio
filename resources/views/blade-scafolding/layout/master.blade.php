@@ -14,7 +14,8 @@
                     <!--Button Change Layout-->
                     <div class="btn-group-sm Bgroup" role="group" aria-label="...">
                         <p class="navbar-text">Take me to next layout!</p>
-                        <button type="button" class="btn btn-default btnDefault" onclick="hideThecard(Cards)">Layout 1</button>
+                        <button type="button" class="btn btn-default btnDefault" onclick="hideThecard(Cards)">Layout
+                            1</button>
                         <!--out for now !-> <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
     <end-->
                     </div>
@@ -46,12 +47,11 @@
                 <!--BackgroundImage  Container-->
                 <div id="rePostion">
                     <img class="img" id="selfi" src="/assets/images/selfi.jpg" style="height: 320px">
-                    <h1>Othman Adi :
-                        <br>
-                        <small>
-                            i am a self tough Programmer From Hama,Syria
-                        </small>
-                    </h1>
+                    <h1>Othman Adi :</h1>
+                    <br>
+                    <h3>
+                        i am a self tough Programmer From Hama,Syria
+                    </h3>
                     <h3>
                         My mission in life is to Create and help
                     </h3>
@@ -62,7 +62,13 @@
                     <br>
                     ------
                     <br>
-                    ------
+                    <a href="/Osteopage" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-default movetoOsteo">
+                            <!--GO TO THE WEBSITE OSTEOAI.COM-->
+                            <h1>Go to Osteo</h1>
+                            <!--GO TO THE WEBSITE OSTEOAI.COM-->
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -109,7 +115,12 @@
                             }</code>
                         <p><code id="codeExample">
                                 var controls = document.querySelectorAll('.controls');</code></p>
-                        <p><code id="codeExample">for (var i = 0; i < controls.length; i++) { controls[i].style.display='inline-block' ; }</code> </p> <p><code id="codeExample"> var slides=document.querySelectorAll('#slides .slide'); var currentSlide=0; var slideInterval=setInterval(nextSlide, 5000); function nextSlide()</code> </p>
+                        <p><code
+                                id="codeExample">for (var i = 0; i < controls.length; i++) { controls[i].style.display='inline-block' ; }</code>
+                        </p>
+                        <p><code
+                                id="codeExample"> var slides=document.querySelectorAll('#slides .slide'); var currentSlide=0; var slideInterval=setInterval(nextSlide, 5000); function nextSlide()</code>
+                        </p>
                         <p><code id="codeExample"> { goToSlide(currentSlide + 1); }</code></p>
                         <p>+HTML<br><code> div class="card cardZ" id="Cardz" </code>
                             <!--end of example-->
