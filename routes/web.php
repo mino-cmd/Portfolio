@@ -11,7 +11,7 @@
 |
  */
  Route::get('/', function () {
-    return view('blade-scafolding.layout.master');
+    return view('welcome');
 });
 
  Route::get('/Osteopage', function () {

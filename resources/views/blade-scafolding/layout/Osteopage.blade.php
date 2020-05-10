@@ -44,7 +44,7 @@
 <a href='/home' target="_blank" rel="noopener noreferrer">
   <button type="button" class="btn btn-default movetoOsteo">
     <!--GO TO THE Resume-->
-    <h1>Go to Resume</h1>
+    <h1>Go to CV</h1>
     <!--GO TO THE Resume-->
   </button>
 </a>

@@ -11,9 +11,6 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <!--Button Change Layout-->
-                    <div class="btn-group-sm Bgroup" role="group" aria-label="...">
-                        <p class="navbar-text">-->Take me back to main page</p>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -55,9 +52,22 @@
                     <br>
                     ------
                     <br>
-                    ------
+                    <a href='/home' target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-default movetoOsteo">
+                            <!--GO TO THE Resume-->
+                            <h1>Go to CV</h1>
+                            <!--GO TO THE Resume-->
+                        </button>
+                    </a>
                     <br>
-                    ------
+                    <br>
+                    <a href="/Osteopage" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-default movetoOsteo">
+                            <!--GO TO THE WEBSITE OSTEOAI.COM-->
+                            <h1>Go to Osteo.AI</h1>
+                            <!--GO TO THE WEBSITE OSTEOAI.COM-->
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -86,25 +96,30 @@
                 <!--Actual Column-->
                 <div class="col-md-6">
                     <!---Box Shape-->
-                    <div class="col-lg-10 align-self-start "> <a href="https://soundcloud.com/vhs2000/upset" class="thumbnail">
+                    <div class="col-lg-10 align-self-start "> <a href="https://soundcloud.com/vhs2000/upset"
+                            class="thumbnail">
                             <!--End of box-->
-                            <iframe width="100%" height="40%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/791443015&color=%23491da6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                            <iframe width="100%" height="40%" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/791443015&color=%23491da6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
                             </iframe></div>
 
                     <div class="col-md-10 ml-auto">
                         <!---Box Shape-->
                         <div class="col-lg-10 toPad"> <a href="https://soundcloud.com/vhs2000/upset" class="thumbnail">
                                 <!--End of box-->
-                                <iframe width="100%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/785185321&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                                <iframe width="100%" height="30%" scrolling="no" frameborder="no" allow="autoplay"
+                                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/785185321&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
                                 </iframe>
 
                         </div>
                     </div>
                     <div class="col-md-10 align-self-end">
                         <!---Box Shape-->
-                        <div class="col-lg-10 toPad"> <a href="https://soundcloud.com/vhs2000/zojylgcvq86w" class="thumbnail">
+                        <div class="col-lg-10 toPad"> <a href="https://soundcloud.com/vhs2000/zojylgcvq86w"
+                                class="thumbnail">
                                 <!--End of box-->
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/795619648&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/795619648&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
                                 </iframe>
                         </div>
                     </div>
@@ -118,24 +133,30 @@
                 <!--Actual Column-->
                 <div class="col-md-10 padleft">
                     <!---Box Shape-->
-                    <div class="col-lg-10 align-self-start widenup"> <a href="https://soundcloud.com/tonie22/loyal" class="thumbnail">
+                    <div class="col-lg-10 align-self-start widenup"> <a href="https://soundcloud.com/tonie22/loyal"
+                            class="thumbnail">
                             <!--End of box-->
-                            <iframe width="200%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265360794&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                            <iframe width="200%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265360794&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
                             </iframe>
                     </div>
                     <div class="col-md-10 ml-auto">
                         <!---Box Shape-->
-                        <div class="col-lg-10 toPad widenup"> <a href="https://soundcloud.com/tonie22/metakalda" class="thumbnail">
+                        <div class="col-lg-10 toPad widenup"> <a href="https://soundcloud.com/tonie22/metakalda"
+                                class="thumbnail">
                                 <!--End of box-->
-                                <iframe width="200%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268579700&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                                <iframe width="200%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268579700&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
                                 </iframe>
                         </div>
                     </div>
                     <div class="col-md-10 align-self-end toPad widenup">
                         <!---Box Shape-->
-                        <div class="col-lg-10"> <a href="https://soundcloud.com/tonie22/vhs-2000-warrior" class="thumbnail">
+                        <div class="col-lg-10"> <a href="https://soundcloud.com/tonie22/vhs-2000-warrior"
+                                class="thumbnail">
                                 <!--End of box-->
-                                <iframe width="200%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/549259428&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                                <iframe width="200%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/549259428&color=%235c39ba&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
                                 </iframe>
                         </div>
                     </div>

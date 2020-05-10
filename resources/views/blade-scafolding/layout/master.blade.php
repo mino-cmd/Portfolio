@@ -65,7 +65,7 @@
                     <a href="/Osteopage" target="_blank" rel="noopener noreferrer">
                         <button type="button" class="btn btn-default movetoOsteo">
                             <!--GO TO THE WEBSITE OSTEOAI.COM-->
-                            <h1>Go to Osteo</h1>
+                            <h1>Go to Osteo.AI</h1>
                             <!--GO TO THE WEBSITE OSTEOAI.COM-->
                         </button>
                     </a>

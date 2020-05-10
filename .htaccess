@@ -1,4 +1,4 @@
-DirectoryIndex resources/views/blade-scafolding.layout.master.blade.php 
+DirectoryIndex index.php
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
@@ -13,7 +13,7 @@ DirectoryIndex resources/views/blade-scafolding.layout.master.blade.php
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ resources/home.blade.php [L]
+    RewriteRule ^ resources [L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
