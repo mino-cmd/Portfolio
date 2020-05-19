@@ -67,7 +67,7 @@ body {
     left: 82%;
 }
 .movetoOsteo{
-    background-color: white;
+    color: rgb(126, 125, 175);
 }
 /*Edges and Card Text*/
 
@@ -306,4 +306,7 @@ body {
     line-height: 60px;
     background-color: rgb(216, 208, 208);
     /* Vertically center the text there */
+}
+.ContactButton{
+    color: rgb(126, 125, 175);
 }

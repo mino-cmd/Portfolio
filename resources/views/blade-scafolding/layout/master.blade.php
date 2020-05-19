@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>HelloWorld</title>
 
 <head>
+    @include('blade-scafolding.partials.Coookiee')
     @include('blade-scafolding.partials.head')
 </head>
 
@@ -13,9 +15,9 @@
                 <div class="navbar-header">
                     <!--Button Change Layout-->
                     <div class="btn-group-sm Bgroup" role="group" aria-label="...">
-                        <p class="navbar-text">Take me to next layout!</p>
-                        <button type="button" class="btn btn-default btnDefault" onclick="hideThecard(Cards)">Layout
-                            1</button>
+                        <p class="navbar-text">Take me to next</p>
+                        <button type="button" class="btn btn-dark btnDefault" onclick="hideThecard(Cards)">Layout!
+                        </button>
                         <!--out for now !-> <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
     <end-->
                     </div>
@@ -33,8 +35,6 @@
                     $str = array("My Introduction Begins Here");
                     echo $str[0];
                     ?>
-
-
                 </div>
             </div>
         </div>
@@ -58,12 +58,18 @@
                     <br>
                     ------
                     <br>
-                    ------
+                    <a href="/masterGrid" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-dark movetoOsteo">
+                            <!--GO TO THE MusicGrid-->
+                            <h3>Music</h3>
+                            <!--GO TO THE MusicGrid-->
+                        </button>
+                    </a>
                     <br>
                     ------
                     <br>
                     <a href="/Osteopage" target="_blank" rel="noopener noreferrer">
-                        <button type="button" class="btn btn-default movetoOsteo">
+                        <button type="button" class="btn btn-dark movetoOsteo">
                             <!--GO TO THE WEBSITE OSTEOAI.COM-->
                             <h1>Go to Osteo.AI</h1>
                             <!--GO TO THE WEBSITE OSTEOAI.COM-->
@@ -129,8 +135,6 @@
         </div>
         </p>
     </div>
-    </div>
-    </div>
     <!--CV-->
     <iframe src="assets/CV.blade.php" id="Cards" class="parallax cardC" style="border: none"></iframe>
     <a class="tesxtUnderSlids">
@@ -151,14 +155,9 @@
                                 <a href=""></a>
                                 <a href=""></a>
                             </div>
+                        </div>
                             <--end-->
-        <!--later->
-    <div class="classname">
-        <//?php include("/path/to/file.html"); ?>
-    </div>
-    <--later-->
         @include('blade-scafolding.partials.footer')
-        </div>
 
 </body>
 

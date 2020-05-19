@@ -11,7 +11,7 @@
 |
  */
  Route::get('/', function () {
-    return view('welcome');
+    return view('blade-scafolding.layout.master');
 });
 
  Route::get('/Osteopage', function () {
@@ -21,8 +21,9 @@
  Route::get('/home', function () {
      return view('blade-scafolding.layout.master');
   });
-  Route::get('/masterGrid', function () {
+  Route::get('/music', function () {
       return view('blade-scafolding.layout.masterGrid');
   });
-
-
+  Route::get('/Music', function () {
+      return view('blade-scafolding.layout.masterGrid');
+  });

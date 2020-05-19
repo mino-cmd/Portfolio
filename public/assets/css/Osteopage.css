@@ -8,7 +8,15 @@ body {
 
 .Box1 {
   overflow: hidden;
-  display: block;
+}
+
+.parentitem {
+  max-width: auto;
+  overflow: hidden;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  border: none;
 }
 
 #img1 {
@@ -16,17 +24,9 @@ body {
   overflow: hidden;
   width: auto;
   height: auto;
-}
-
-.parentitem {
-  max-width: 100%;
-  overflow: hidden;
-  background-color: transparent;
-  width: auto;
-  height: auto;
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 /*Centerd img*/
@@ -38,14 +38,9 @@ body {
 }
 
 .logobox {
-  max-width: 100%;
   overflow: hidden;
   background-color: transparent;
-  width: auto;
-  height: auto;
   border: none;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #img2 {
@@ -53,6 +48,9 @@ body {
   overflow: hidden;
   width: auto;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*save for later/
@@ -69,24 +67,13 @@ body {
 /**/
 
 .bottompic {
-  overflow: hidden;
-  display: block;
-}
-
-.parentbox {
-  max-width: 50%;
-  overflow: hidden;
-  background-color: transparent;
-  width: auto;
-  height: auto;
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  top: 150px;
 }
 
 #img3 {
-  max-width: auto;
-  overflow: hidden;
-  width: auto;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }

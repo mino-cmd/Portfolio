@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>Music Page</title>
 
 <head>
     @include('blade-scafolding.partials.head')

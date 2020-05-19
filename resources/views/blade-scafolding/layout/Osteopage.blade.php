@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
+<title>OsteoAI</title>
 
 <head>
   <meta charset="utf-8" />
-  <title>AI</title>
   <meta name="author" content="OstioAI" />
   <meta name="description" content="Med" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,20 +33,9 @@
       <img id="img2" src="/assets/images/OsteoAILogo.png" alt="Logo" />
     </div>
   </div>
-
   <div class="bottompic">
-    <div class="parentbox">
-      <img id="img3" src="/assets/images/bottompic.png" alt="BottomPicture" />
-    </div>
+    <img id="img3" src="/assets/images/bottompic.png" alt="BottomPicture" />
   </div>
 </body>
-
-<a href='/home' target="_blank" rel="noopener noreferrer">
-  <button type="button" class="btn btn-default movetoOsteo">
-    <!--GO TO THE Resume-->
-    <h1>Go to CV</h1>
-    <!--GO TO THE Resume-->
-  </button>
-</a>
 
 </html>
