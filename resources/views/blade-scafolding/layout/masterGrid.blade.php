@@ -3,6 +3,7 @@
 <title>Music Page</title>
 
 <head>
+    @include('blade-scafolding.partials.Coookiee')
     @include('blade-scafolding.partials.head')
 </head>
 
@@ -38,9 +39,10 @@
                 <div id="backgroundImage"></div>
                 <!--BackgroundImage  Container-->
                 <div id="rePostion">
-                    <img class="img" id="selfi" src="/assets/images/MusicGridProfilepicture.jpeg" style="height: 320px">
+                    <img class="img-fluid rounded" id="selfiGrid" src="/assets/images/MusicGridProfilepicture.jpeg"
+                        style="height: 320px">
                     <h1>TonieXXII
-                        <br>
+                        <br />
                         <small>
                             collaborative & Original productions
                         </small>
@@ -48,22 +50,23 @@
                     <h3>
                         people say it sounds like greenTea on a Softcouch
                     </h3>
-                    <br>
+                    <br />
                     ------
-                    <br>
+                    <br />
                     ------
-                    <br>
-                    <a href='/home' target="_blank" rel="noopener noreferrer">
-                        <button type="button" class="btn btn-default movetoOsteo">
-                            <!--GO TO THE Resume-->
-                            <h1>Go to CV</h1>
-                            <!--GO TO THE Resume-->
+                    <br />
+                    <a href="/music" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-dark movetoOsteo">
+                            <!--GO TO THE MusicGrid-->
+                            <h3>Music</h3>
+                            <!--GO TO THE MusicGrid-->
                         </button>
                     </a>
-                    <br>
-                    <br>
+                    <br />
+                    ------
+                    <br />
                     <a href="/Osteopage" target="_blank" rel="noopener noreferrer">
-                        <button type="button" class="btn btn-default movetoOsteo">
+                        <button type="button" class="btn btn-dark movetoOsteo">
                             <!--GO TO THE WEBSITE OSTEOAI.COM-->
                             <h1>Go to Osteo.AI</h1>
                             <!--GO TO THE WEBSITE OSTEOAI.COM-->

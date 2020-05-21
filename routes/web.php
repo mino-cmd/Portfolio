@@ -27,3 +27,6 @@
   Route::get('/Music', function () {
       return view('blade-scafolding.layout.masterGrid');
   });
+  Route::get('/404', function () {
+      return view('blade-scafolding.layout.404');
+  });
