@@ -30,3 +30,6 @@
   Route::get('/404', function () {
       return view('blade-scafolding.layout.404');
   });
+  Route::get('/test', function () {
+      return view('blade-scafolding.layout.testpage');
+  });
