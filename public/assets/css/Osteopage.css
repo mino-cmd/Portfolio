@@ -11,7 +11,7 @@ body {
 }
 
 .parentitem {
-  max-width: auto;
+  /*max-width: auto;*/
   overflow: hidden;
   background-color: transparent;
   width: auto;
@@ -20,7 +20,7 @@ body {
 }
 
 #img1 {
-  max-width: auto;
+  /*max-width: auto;*/
   overflow: hidden;
   width: auto;
   height: auto;
@@ -31,7 +31,7 @@ margin-right: auto;
 
 /*Centerd img*/
 .explain {
-  max-width: auto;
+  /*max-width: auto;*/
   overflow: hidden;
   width: auto;
   height: auto;
@@ -44,7 +44,7 @@ margin-right: auto;
 }
 
 #img2 {
-  max-width: auto;
+  /*max-width: auto;*/
   overflow: hidden;
   width: auto;
   height: auto;

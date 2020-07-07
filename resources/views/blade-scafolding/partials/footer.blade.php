@@ -10,11 +10,9 @@
                 echo "Holla at me"
                 ?>
             </a>
-            <!--Links directing to Public Profiles-->
-            <div class="box boxx">
-                <a href="https://soundcloud.com/tonie22"> <i class="fab fa-soundcloud" alt="To Soundcloud"></i></a>
-                <a href="https://github.com/mino-cmd"> <i class="fab fa-github-alt" alt="To GitHub"></i></a>
-            </div>
+            {{--            --}}
+            {{--     Enter Links    --}}
+            {{--            --}}
         </div>
     </div>
     <div class="footer-copyright text-center">@2020 copyright
