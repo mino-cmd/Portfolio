@@ -4,6 +4,7 @@
 
 <head>
     @include('blade-scafolding.partials.Coookiee')
+    @include('blade-scafolding.partials.MusicGridHead')
     @include('blade-scafolding.partials.head')
 </head>
 
@@ -33,7 +34,7 @@
         </div>
     </div>
 </div>
-@include('blade-scafolding.partials.footer')
+@include('blade-scafolding.layout.footer')
 
 
 </body>

@@ -3,8 +3,11 @@
 <title>HelloWorld</title>
 
 <head>
+    <title>Hello World</title>
     @include('blade-scafolding.partials.Coookiee')
+    @include('blade-scafolding.partials.MainPageHeadLink')
     @include('blade-scafolding.partials.head')
+
 </head>
 
 <body>
@@ -14,14 +17,13 @@
         <div class="title">
             <!--Bootstrap Code-->
             <div class="alert" role="alert">
-                <?php
-                $str = array("Array be packed in special Folder ☺");
-                echo $str[0];
-                ?>
+                @include('blade-scafolding.partials.MyArrays.ArrayPcked')
             </div>
         </div>
     </div>
+    @include('blade-scafolding.layout.sliderpage')
 </div>
+@include('blade-scafolding.layout.footer')
 {{--            <div class="movemeUpLeft">--}}
 {{--                <a href="/music" target="_blank" rel="noopener noreferrer">--}}
 {{--                    <button type="button" class="btn btn-dark movetoOsteo">--}}
@@ -42,13 +44,8 @@
 {{--            </div>--}}
 {{--            <p><code>Music</code> is where you can check out my music--}}
 {{--                <p><code>OsteoAI</code> a Private project that i want to finished--}}
-
-@include('blade-scafolding.layout.sliderpage')
-
 <!--CV-->
 <!--Embeded Footer of Website-->
-@include('blade-scafolding.partials.footer')
-
 </body>
 
 </html>

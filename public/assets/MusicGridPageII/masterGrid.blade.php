@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <!-- Body of portfolio-->
-    <link href="/assets/css/portfolioBody.css" rel="stylesheet"/>
+    <link href="/public/css/portfolioBody.css" rel="stylesheet"/>
 
 </head>
 
