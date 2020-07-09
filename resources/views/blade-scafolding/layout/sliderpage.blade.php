@@ -6,136 +6,145 @@
     <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
         <p class="navbar-brand" href="#" style="cursor: default;">Lists</p>
         <ul class="navbar-nav">
-            <li class="nav-item CertificateButton" id="ListTextContainer">
-                <button id="CertificatesClass"
-                        style=" background-color: transparent ;border: none"> Certificates /
-                </button>
-            </li>
-            <li class="nav-item JobXButton" id="ListTextContainer">
-                <button id="ArbeitClass"
-                        style=" background-color: transparent ;border: none"> Arbeitserfahrung /
-                </button>
-            </li>
-            <li class="nav-item BildungButton" id="ListTextContainer">
-                <button id="BildungsClass"
-                        style="background-color: transparent ;border: none"> Bildung /
-                </button>
-            </li>
-            <li class="nav-item SklizSprechenButton" id="ListTextContainer">
-                <button id="SklzUSprechenClass"
-                        style="background-color: transparent; border: none"> Skills & Sprachen /
-                </button>
-            </li>
+            <a href="#" onclick="toggler('CertiClick');">
+                <li class="nav-item CertificateButton" id="ListTextContainer">
+                    <button id="CertificatesClass"
+                            style=" background-color: transparent ;border: none"> Certificates /
+                    </button>
+                </li>
+            </a>
+            <a href="#" onclick="toggler('ArbeitsClick');">
+                <li class="nav-item JobXButton" id="ListTextContainer">
+                    <button id="ArbeitClass"
+                            style=" background-color: transparent ;border: none"> Arbeitserfahrung /
+                    </button>
+                </li>
+            </a>
+            <a href="#" onclick="toggler('Bildungsclick');">
+                <li class="nav-item BildungButton" id="ListTextContainer">
+                    <button id="BildungsClass"
+                            style="background-color: transparent ;border: none"> Bildung /
+                    </button>
+                </li>
+            </a>
+            <a href="#" onclick="toggler('SklizSprechenClick');">
+                <li class="nav-item SklizSprechenButton" id="ListTextContainer">
+                    <button id="SklzUSprechenClass"
+                            style="background-color: transparent; border: none"> Skills & Sprachen /
+                    </button>
+                </li>
+            </a>
         </ul>
     </nav>
-</div>
-<article id="cc-slider">
-    <input checked="checked" name="cc-slider" id="slide1" type="radio">
-    <input name="cc-slider" id="slide2" type="radio">
-    <input name="cc-slider" id="slide3" type="radio">
-    <input name="cc-slider" id="slide4" type="radio">
-    <input name="cc-slider" id="slide5" type="radio">
-    <div id="cc-slides">
-        <div id="overflow">
-            <div class="inner ">
-                <article>
 
-                    <img class="FirstSLids" src="/assets/images/1.jpg">
-                </article>
-                <article>
-
-                    <img class="FirstSLids" src="/assets/images/2.jpg">
-                </article>
-                <article>
-
-                    <img class="FirstSLids" src="/assets/images/3.jpg">
-                </article>
-                <article>
-
-                    <img class="FirstSLids" src="/assets/images/4.jpg">
-                </article>
-
-                <article>
-
-                    <img class="SecondSlides" src="/assets/images/1.jpg">
-                </article>
-                <article>
-
-                    <img class="SecondSlides" src="/assets/images/2.jpg">
-                </article>
-                <article>
-
-                    <img class="SecondSlides" src="/assets/images/3.jpg">
-                </article>
-                <article>
-
-                    <img class="SecondSlides" src="/assets/images/4.jpg">
-                </article>
-                <article>
-
-                    <img class="ThirdSlide" src="/assets/images/1.jpg">
-                </article>
-                <article>
-
-                    <img class="ThirdSlide" src="/assets/images/2.jpg">
-                </article>
-                <article>
-
-                    <img class="ThirdSlide" src="/assets/images/3.jpg">
-                </article>
-                <article>
-
-                    <img class="ThirdSlide" src="/assets/images/4.jpg">
-                </article>
-                <article>
-
-                    <img class="FourthSlide" src="/assets/images/1.jpg">
-                </article>
-                <article>
-
-                    <img class="FourthSlide" src="/assets/images/2.jpg">
-                </article>
-                <article>
-
-                    <img class="FourthSlide" src="/assets/images/3.jpg">
-                </article>
-                <article>
-
-                    <img class="FourthSlide" src="/assets/images/4.jpg">
-                </article>
-
+    <div class="container-fluid">
+        <div class="row align-items-start" id="CertiClick">
+            <div class="row">
+                <div class="col" style="color: white">
+                    One of three columns
+                    <li class="media">
+                        <img class="mr-3" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                    </li>
+                </div>
+                <div class="col" style="color: white">
+                    One of three columns
+                    <li class="media">
+                        <img class="mr-3" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                    </li>
+                </div>
+                <div class="col" style="color: white;">
+                    One of three columns
+                    <li class="media">
+                        <img class="mr-3" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                    </li>
+                </div>
             </div>
         </div>
     </div>
-    <div id="controls">
-        <label for="slide1"></label>
-        <label for="slide2"></label>
-        <label for="slide3"></label>
-        <label for="slide4"></label>
+    <div class="row align-items-start" id="ArbeitsClick">
+        <div class="row">
+            <div class="col" style="color: white">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+            <div class="col" style="color: white">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+            <div class="col" style="color: white;">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+        </div>
     </div>
-</article>
+    <div class="row align-items-start" id="Bildungsclick">
+        <div class="row">
+            <div class="col" style="color: white">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+            <div class="col" style="color: white">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+            <div class="col" style="color: white;">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+        </div>
+    </div>
 
+    <div class="row align-items-start" id="SklizSprechenClick">
+        <div class="row">
+            <div class="col" style="color: white">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+            <div class="col" style="color: white">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+            <div class="col" style="color: white;">
+                One of three columns
+                <li class="media">
+                    <img class="mr-3" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                </li>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{--    SELFi --}}
+<!-- Right-aligned media object -->
+<div class="media">
+    <div class="media-body">
+    </div>
+    <div class="media-right">
+        <img src="/assets/images/Selfi.png" class="media-object" style="width:300px">
+    </div>
+</div>
+
+{{--    SELFi --}}
 <script>
-    $(document).ready(function () {
-        $('.CertificateButton').on("click", function (e) {
-            $('.FirstSLids').toggle('');
-        });
-    });
 
-    $(document).ready(function () {
-        $('.JobXButton').on("click", function (e) {
-            $('.SecondSlides').toggle('');
-        });
-    });
-    $(document).ready(function () {
-        $('.BildungButton').on("click", function (e) {
-            $('.ThirdSlide').toggle('');
-        });
-    });
+    function toggler(divId) {
+        $("#" + divId).toggle();
 
-    $(document).ready(function () {
-        $('.SklizSprechenButton').on("click", function (e) {
-            $('.FourthSlide').toggle('');
-        });
-    });
+    }
 </script>

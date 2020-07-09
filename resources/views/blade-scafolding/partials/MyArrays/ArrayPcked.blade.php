@@ -4,7 +4,7 @@
 <div class="toEdit">
     <?php
     $myArray = array();
-    $myArray[] = "Othman Adi a hard working, passionate animal who loves Stuff ☺";
+    $myArray[] = "Creation is a sign of Existence";
     echo $myArray[0];
     ?>
 </div>

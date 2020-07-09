@@ -4,8 +4,11 @@ body {
 }
 
 #_ContainerFluid_OfSlides {
-    /*grid-row-start: 2;*/
-    /*grid-row-end: 3;*/
+    width: auto;
+}
+
+.bg-dark {
+    width: 50%;
 }
 
 #CertificatesClass, #ArbeitClass, #BildungsClass, #SklzUSprechenClass {
@@ -38,3 +41,5 @@ body {
     right: 30px;
 }
 
+.media{
+}

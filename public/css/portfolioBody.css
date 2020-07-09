@@ -27,7 +27,7 @@
         color: rgb(132, 129, 155);
     }
     
-    .dropdown-divider {
+    .drop {
         position: relative;
         z-index: 1;
         top: 2%;
@@ -41,7 +41,7 @@
     
     .txtCollection {
         color: white;
-        font-family: 'Raleway';
+        font-family: 'Raleway', monospace;
     }
     /*Edges and Card Text*/
     

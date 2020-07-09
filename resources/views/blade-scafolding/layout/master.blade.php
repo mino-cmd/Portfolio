@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>HelloWorld</title>
 
 <head>
     <title>Hello World</title>
