@@ -15,31 +15,14 @@ body {
     color: white;
 }
 
-.left-slide, .right-slide {
-    position: absolute;
-    width: 40px;
-    background-color: transparent;
-    border-radius: 50%;
-    color: #ffffff;
-    font-size: 20px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 40px;
-
-}
-
-.left-slide:hover, .right-slide:hover {
-    box-shadow: 0 0 10px black;
-    background-color: rgba(0, 0, 0, 0.171);
-}
-
-.left-slide {
-    left: 30px;
-}
-
-.right-slide {
-    right: 30px;
-}
-
 .media{
+    width: 10%;
+    height: 150px;
+}
+
+.media:active{
+    position: fixed;
+    width: 140%;
+    transition: width 1s ease-out;
+    top: 30%;
 }

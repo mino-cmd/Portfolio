@@ -2,7 +2,7 @@
 <!--*********************************-->
 <footer class="page-footer">
     <div class="movetheButton">
-        <a href="#" class="btn btn-dark ContactButton">
+        <a href="mailto:adiatwork@outlook.com?subject=&body=" class="btn btn-dark ContactButton">
             <?php
             echo " Got a Questione ? Write me :"
             ?>

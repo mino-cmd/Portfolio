@@ -214,38 +214,6 @@ textalignright{
     color: rgb(126, 125, 175);
 }
 
-
-/*Body Behind CV*/
-
-
-/**NOT USED NO MORE**/
-
-
-/**
-            .cv {
-                background-color: #3638333d;
-            }
-            
-            
-            .containFirstpic {
-                position: relative;
-                left: 20px;
-            }
-            
-            .firstPic {
-                position: relative;
-                top: 0px;
-                left: 199px;
-            }
-            
-            .secondPic {
-                position: absolute;
-                top: 0%;
-                right: 450px;
-                z-index: 0;
-            }
-            /*body of Card Title*/
-
 #Cards {
     width: 100%;
     height: 100%;
@@ -305,6 +273,9 @@ textalignright{
     bottom: 0;
 }
 
+/*here*/
+
+/*here*/
 
 /*Footer*/
 

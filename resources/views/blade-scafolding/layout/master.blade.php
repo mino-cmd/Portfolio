@@ -19,10 +19,17 @@
                 @include('blade-scafolding.partials.MyArrays.ArrayPcked')
             </div>
         </div>
+
+        {{--    SELFi : Under Construction --}}
+
+        @include('blade-scafolding.layout.Selfi')
+        {{--    SELFi --}}
     </div>
     @include('blade-scafolding.layout.sliderpage')
 </div>
+<!--My Embedded FOOTER-->
 @include('blade-scafolding.layout.footer')
+{{--TODO: Information about Music Page and Osteoai--}}
 {{--            <div class="movemeUpLeft">--}}
 {{--                <a href="/music" target="_blank" rel="noopener noreferrer">--}}
 {{--                    <button type="button" class="btn btn-dark movetoOsteo">--}}
@@ -43,8 +50,6 @@
 {{--            </div>--}}
 {{--            <p><code>Music</code> is where you can check out my music--}}
 {{--                <p><code>OsteoAI</code> a Private project that i want to finished--}}
-<!--CV-->
-<!--Embeded Footer of Website-->
 </body>
 
 </html>
