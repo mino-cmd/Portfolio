@@ -27,29 +27,8 @@
     </div>
     @include('blade-scafolding.layout.sliderpage')
 </div>
+    @include('blade-scafolding.layout.Redirects')
 <!--My Embedded FOOTER-->
 @include('blade-scafolding.layout.footer')
-{{--TODO: Information about Music Page and Osteoai--}}
-{{--            <div class="movemeUpLeft">--}}
-{{--                <a href="/music" target="_blank" rel="noopener noreferrer">--}}
-{{--                    <button type="button" class="btn btn-dark movetoOsteo">--}}
-{{--                        <!--GO TO THE MusicGrid-->--}}
-{{--                        <h3 class="whitecolor">Music</h3>--}}
-{{--                        <!--GO TO THE MusicGrid-->--}}
-{{--                    </button>--}}
-{{--                </a>--}}
-{{--                <br />--}}
-{{--                <br />--}}
-{{--                <a href="/Osteopage" target="_blank" rel="noopener noreferrer">--}}
-{{--                    <button type="button" class="btn btn-dark movetoOsteo">--}}
-{{--                        <!--GO TO THE WEBSITE OSTEOAI.COM-->--}}
-{{--                        <h1 class="whitecolor">Go to Osteo.AI</h1>--}}
-{{--                        <!--GO TO THE WEBSITE OSTEOAI.COM-->--}}
-{{--                    </button>--}}
-{{--                </a>--}}
-{{--            </div>--}}
-{{--            <p><code>Music</code> is where you can check out my music--}}
-{{--                <p><code>OsteoAI</code> a Private project that i want to finished--}}
 </body>
-
 </html>

@@ -6,28 +6,28 @@
     <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
         <p class="navbar-brand" href="#" style="cursor: default;">Lists</p>
         <ul class="navbar-nav">
-            <a href="#" onclick="ToggleCards('CertiClick');">
+            <a href="#" onclick="ToggleCards();">
                 <li class="nav-item CertificateButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="CertificatesClass"
                             style=" background-color: transparent ;border: none"> Certificates /
                     </button>
                 </li>
             </a>
-            <a href="#" onclick="ToggleCards('ArbeitsClick');">
+            <a href="#" onclick="ToggleCards();">
                 <li class="nav-item JobXButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="ArbeitClass"
                             style=" background-color: transparent ;border: none"> Arbeitserfahrung /
                     </button>
                 </li>
             </a>
-            <a href="#" onclick="ToggleCards('Bildungsclick');">
+            <a href="#" onclick="ToggleCards();">
                 <li class="nav-item BildungButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="BildungsClass"
                             style="background-color: transparent ;border: none"> Bildung /
                     </button>
                 </li>
             </a>
-            <a href="#" onclick="ToggleCards('SklizSprechenClick');">
+            <a href="#" onclick="ToggleCards();">
                 <li class="nav-item SklizSprechenButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="SklzUSprechenClass"
                             style="background-color: transparent; border: none"> Skills & Sprachen /
@@ -93,52 +93,51 @@
                 </li>
             </div>
         </div>
+    </div>
+</div>
+<script>
 
-        <script>
+    function ToggleCards(divId) {
+        // $("#" + divId).toggle();
+        var ShowCertiCards = document.getElementById("CertiClick");
+        var ShowArbeitsCards = document.getElementById("ArbeitsClick");
+        var ShowBildungsCards = document.getElementById("Bildungsclick");
+        var ShowotherCards = document.getElementById("SklizSprechenClick");
 
-            function ToggleCards(divId) {
-                $("#" + divId).toggle();
-            }
+        var _CertificatesClass = document.getElementById("CertificatesClass");
+        var _ArbeitClass = document.getElementById("ArbeitClass");
+        var _BildungsClass = document.getElementById("BildungsClass");
+        var _SklzUSprechenClass = document.getElementById("SklzUSprechenClass");
 
-            //
-            // function CertiToggle(CertificatesClass) {
-            //     var showCertiboard = document.getElementById("CertiClick");
-            //     if (CertificatesClass.value === "Yes") {
-            //         showCertiboard.style.display = "block";
-            //         CertificatesClass.value = "No";
-            //     } else{
-            //         showCertiboard.style.display= "none";
-            //         CertificatesClass.value="Yes";
-            //     }
-            // }
-            // function Arbeitstoggle(ArbeitClass) {
-            //     var showCertiboard = document.getElementById("ArbeitsClick");
-            //     if (ArbeitClass.value === "Yes") {
-            //         showCertiboard.style.display = "block";
-            //         ArbeitClass.value = "No";
-            //     }else{
-            //         showCertiboard.style.display="none";
-            //         ArbeitClass.value="Yes";
-            //     }
-            // }
-            // function BildungsToggle(BildungsClass) {
-            //     var showCertiboard = document.getElementById("ArbeitsClick");
-            //     if (BildungsClass.value === "Yes") {
-            //         showCertiboard.style.display = "block";
-            //         BildungsClass.value = "No";
-            //     }else{
-            //         showCertiboard.style.display="none";
-            //         BildungsClass.value="Yes";
-            //     }
-            // }
-            // function SkillsuSprchToggle(SklzUSprechenClass) {
-            //     var showCertiboard = document.getElementById("ArbeitsClick");
-            //     if (SklzUSprechenClass.value === "Yes") {
-            //         showCertiboard.style.display = "block";
-            //         SklzUSprechenClass.value = "No";
-            //     }else{
-            //         showCertiboard.style.display="none";
-            //         SklzUSprechenClass.value="Yes";
-            //     }
-            // }
-        </script>
+        if (_CertificatesClass.value === "Yes") {
+            ShowCertiCards.style.display = "Block";
+            _CertificatesClass.value = "No";
+        } else {
+            ShowCertiCards.style.display = "None";
+            _CertificatesClass.value = "Yes";
+        }
+
+        if (_ArbeitClass.value === "Yes") {
+            ShowArbeitsCards.style.display = "Block";
+            _ArbeitClass.value = "No";
+        } else {
+            ShowArbeitsCards.style.display = "none";
+            _ArbeitClass.value = "Yes";
+        }
+        if (_BildungsClass.value === "Yes") {
+            ShowBildungsCards.style.display = "Block";
+            _BildungsClass.value = "No";
+        } else {
+            ShowBildungsCards.style.display = "none";
+            _BildungsClass.value = "Yes";
+        }
+        if (_SklzUSprechenClass.value === "Yes") {
+            ShowotherCards.style.display = "Block";
+            _SklzUSprechenClass.value = "No";
+        } else {
+            ShowotherCards.style.display = "none";
+            _SklzUSprechenClass.value = "Yes";
+        }
+    }
+
+</script>

@@ -24,17 +24,17 @@
 <body>
   <div class="Box1">
     <div class="parentitem">
-      <img id="img1" src="/assets/images/logo.png" alt="MiniLogo" />
+      <img id="img1" src="/assets/images/other/logo.png" alt="MiniLogo" />
     </div>
   </div>
 
   <div class="explain">
     <div class="logobox">
-      <img id="img2" src="/assets/images/OsteoAILogo.png" alt="Logo" />
+      <img id="img2" src="/assets/images/other/OsteoAILogo.png" alt="Logo" />
     </div>
   </div>
   <div class="bottompic">
-    <img id="img3" src="/assets/images/bottompic.png" alt="BottomPicture" />
+    <img id="img3" src="/assets/images/other/bottompic.png" alt="BottomPicture" />
   </div>
 </body>
 
