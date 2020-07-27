@@ -15,12 +15,12 @@ body {
     color: white;
 }
 
-.media{
+.media {
     width: 10%;
     height: 150px;
 }
 
-.media:active{
+.media:active {
     position: fixed;
     width: 140%;
     transition: width 1s ease-out;

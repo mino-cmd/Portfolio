@@ -2,7 +2,7 @@
 <body>
 <div class="col-2 position-absolute MyPageRedirects">
     <a href="/music" target="_blank" rel="import">
-        <button type="button" class="btn btn-dark ">
+        <button type="button" class="btn btn-dark ButtonRedirect">
             <!--GO TO THE MusicGrid-->
             Music
             <!--GO TO THE MusicGrid-->
@@ -10,7 +10,7 @@
     </a>
     <code style="display: block">is where you can check out my music</code>
     <a href="/Osteopage" target="_blank" rel="import">
-        <button type="button" class="btn btn-dark ">
+        <button type="button" class="btn btn-dark ButtonRedirect">
             <!--GO TO THE WEBSITE OSTEOAI.COM-->
             Go to Osteo.AI
             <!--GO TO THE WEBSITE OSTEOAI.COM-->

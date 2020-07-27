@@ -27,7 +27,7 @@
                     <!--Button Change Layout-->
                     <div class="btn-group-sm Bgroup" role="group" aria-label="...">
                         <p class="navbar-text">-->Take me back to</p>
-                         
+
 
                         <!--out for now !-> <button type="button" class="btn btn-default btnDefault" onclick="hidetheIICard(Cardz)">Layout 2</button>
     <end-->

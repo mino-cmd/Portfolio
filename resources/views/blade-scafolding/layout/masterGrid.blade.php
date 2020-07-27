@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Music Page</title>
 
 <head>
+    <title>Music Page</title>
     @include('blade-scafolding.partials.Coookiee')
     @include('blade-scafolding.partials.MusicGridHead')
     @include('blade-scafolding.partials.head')
@@ -28,13 +28,22 @@
                 $str = array("Music Pisces");
                 echo $str[0];
                 ?>
-
-
             </div>
         </div>
     </div>
 </div>
+{{--Here is the MUSIC GRID Build--}}
+
+@include('blade-scafolding.layout.Listed_Music_Items')
+{{--Here is the MUSIC GRID Build--}}
+
+{{--**************--}}
+@include('blade-scafolding.layout.Redirects')
+
+{{--My Dynamic page Footer--}}
+
 @include('blade-scafolding.layout.footer')
+{{--My Dynamic page Footer--}}
 
 
 </body>

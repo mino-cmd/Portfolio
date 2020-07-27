@@ -5,29 +5,29 @@
 <div class="container-fluid" id="_ContainerFluid_OfSlides">
     <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
         <p class="navbar-brand" href="#" style="cursor: default;">Lists</p>
-        <ul class="navbar-nav">
-            <a href="#" onclick="ToggleCards();">
+        <ul class="navbar-nav Ul">
+            <a href="#" onclick="ToggleCards('CertiClick');">
                 <li class="nav-item CertificateButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="CertificatesClass"
                             style=" background-color: transparent ;border: none"> Certificates /
                     </button>
                 </li>
             </a>
-            <a href="#" onclick="ToggleCards();">
+            <a href="#" onclick="ToggleCards('ArbeitsClick');">
                 <li class="nav-item JobXButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="ArbeitClass"
                             style=" background-color: transparent ;border: none"> Arbeitserfahrung /
                     </button>
                 </li>
             </a>
-            <a href="#" onclick="ToggleCards();">
+            <a href="#" onclick="ToggleCards('Bildungsclick');">
                 <li class="nav-item BildungButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="BildungsClass"
                             style="background-color: transparent ;border: none"> Bildung /
                     </button>
                 </li>
             </a>
-            <a href="#" onclick="ToggleCards();">
+            <a href="#" onclick="ToggleCards('SklizSprechenClick');">
                 <li class="nav-item SklizSprechenButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="SklzUSprechenClass"
                             style="background-color: transparent; border: none"> Skills & Sprachen /
@@ -36,9 +36,9 @@
             </a>
         </ul>
     </nav>
-    <div class="row">
-        <div class="col-sm-offset-0" id="CertiClick">
-            <div class="container-fluid">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-offset-0" id="CertiClick">
                 One of three columns
                 <li class="media">
                     <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
@@ -50,9 +50,7 @@
                     <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
                 </li>
             </div>
-        </div>
-        <div class="col-sm-offset-1" id="ArbeitsClick">
-            <div class="container-fluid">
+            <div class="col-sm-offset-1" id="ArbeitsClick">
                 One of three columns
                 <li class="media">
                     <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
@@ -64,9 +62,7 @@
                     <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
                 </li>
             </div>
-        </div>
-        <div class="col-sm-offset-2" id="Bildungsclick">
-            <div class="container-fluid">
+            <div class="col-sm-offset-2" id="Bildungsclick">
                 One of three columns
                 <li class="media">
                     <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
@@ -78,9 +74,7 @@
                     <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
                 </li>
             </div>
-        </div>
-        <div class="col-sm-offset-3" id="SklizSprechenClick">
-            <div class="container-fluid">
+            <div class="col-sm-offset-3" id="SklizSprechenClick">
                 One of three columns
                 <li class="media">
                     <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
@@ -97,17 +91,21 @@
 </div>
 <script>
 
-    function ToggleCards(divId) {
+    function ToggleCards() {
         // $("#" + divId).toggle();
+        //This is the Slids
+        // ******************************
         var ShowCertiCards = document.getElementById("CertiClick");
         var ShowArbeitsCards = document.getElementById("ArbeitsClick");
         var ShowBildungsCards = document.getElementById("Bildungsclick");
         var ShowotherCards = document.getElementById("SklizSprechenClick");
-
+        //This is the Button Click
+        // ******************************
         var _CertificatesClass = document.getElementById("CertificatesClass");
         var _ArbeitClass = document.getElementById("ArbeitClass");
         var _BildungsClass = document.getElementById("BildungsClass");
         var _SklzUSprechenClass = document.getElementById("SklzUSprechenClass");
+
 
         if (_CertificatesClass.value === "Yes") {
             ShowCertiCards.style.display = "Block";

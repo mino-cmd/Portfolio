@@ -3,6 +3,7 @@
 
 <div class="thumbex position-absolute">
     <div class="thumbnail">
-        <a href="#"> <img src="assets\images\Selfi.png"/></a>
+        <a href="#">
+            <img src="assets\images\Selfi.png"/></a>
     </div>
 </div>

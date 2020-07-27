@@ -1,79 +1,66 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background-color: white;
+    background-color: white;
 }
 
 .Box1 {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .parentitem {
-  /*max-width: auto;*/
-  overflow: hidden;
-  background-color: transparent;
-  width: auto;
-  height: auto;
-  border: none;
+    /*max-width: auto;*/
+    overflow: hidden;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    border: none;
 }
 
 #img1 {
-  /*max-width: auto;*/
-  overflow: hidden;
-  width: auto;
-  height: auto;
-  display: block;
-margin-left: auto;
-margin-right: auto;
+    /*max-width: auto;*/
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Centerd img*/
 .explain {
-  /*max-width: auto;*/
-  overflow: hidden;
-  width: auto;
-  height: auto;
+    /*max-width: auto;*/
+    overflow: hidden;
+    width: auto;
+    height: auto;
 }
 
 .logobox {
-  overflow: hidden;
-  background-color: transparent;
-  border: none;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
 }
 
 #img2 {
-  /*max-width: auto;*/
-  overflow: hidden;
-  width: auto;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    /*max-width: auto;*/
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-/*save for later/
-#tell {
-	display: block;
-	text-align: center;
-	position: relative;
-	font-family: "Avenir";
-	color: black;
-
-	font-size: 80%;
-	padding-bottom: 4%;
-}
-/**/
 
 .bottompic {
-  position: relative;
-  top: 150px;
+    position: relative;
+    top: 150px;
 }
 
 #img3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
 }
