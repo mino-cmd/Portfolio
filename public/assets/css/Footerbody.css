@@ -6,21 +6,22 @@
     bottom: 0;
     position: fixed;
     width: 100%;
-    opacity: 0.2;
 }
-.page-footer:hover{
+
+.movetheButton:hover {
     opacity: 100%;
 }
 
 .movetheButton {
     position: relative;
     padding: 0 0 0 40%;
+    opacity: 0.2;
 
 }
 
 .ContactButton {
-    color: rgb(196, 196, 198);
-
+    color: rgb(255, 255, 255);
+    background-color: #9c9c9c;
 }
 
 

@@ -22,7 +22,7 @@
 
 <body>
 
-@include('blade-scafolding.layout.Redirects')
+@include('blade-scafolding.layout.RedirectsHome')
 
 
 <div class="Box1">

@@ -9,15 +9,7 @@
 </head>
 
 <body>
-<ol class="breadcrumb" id="fixedtopHeader">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <!--Button Change Layout-->
-            </div>
-        </div>
-    </nav>
-</ol> <!-- Nav bar to contain Views-->
+
 <div class="container-fluid" id="container-fluid-for-content">
     <div class="content">
         <!--laravel code-->
@@ -36,15 +28,12 @@
 
 @include('blade-scafolding.layout.Listed_Music_Items')
 {{--Here is the MUSIC GRID Build--}}
-
 {{--**************--}}
-@include('blade-scafolding.layout.Redirects')
-
+@include('blade-scafolding.layout.RedirectsHome')
 {{--My Dynamic page Footer--}}
 
 @include('blade-scafolding.layout.footer')
 {{--My Dynamic page Footer--}}
-
 
 </body>
 
