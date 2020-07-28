@@ -27,34 +27,34 @@ use Illuminate\Support\Facades\Route;
 //@Training
 //Route::resource('/Post/{id}', 'PostController');
 
-Route::resource('Posts', 'PostController');
+//Route::resource('Posts', 'PostController');
 
 Route::get('/Osteopage', function () {
-    return view('blade-scafolding.layout.Osteopage');
+    return view('blade-scafolding.Osteopage');
 });
 Route::get('/home', function () {
-    return view('blade-scafolding.layout.master');
+    return view('blade-scafolding.home');
 });
 Route::get('/', function () {
-    return view('blade-scafolding.layout.master');
+    return view('blade-scafolding.home');
 });
 
 Route::get('/music', function () {
-    return view('blade-scafolding.layout.masterGrid');
+    return view('blade-scafolding.masterGrid');
 });
 Route::get('/Music', function () {
-    return view('blade-scafolding.layout.masterGrid');
+    return view('blade-scafolding.masterGrid');
 });
 Route::get('/404', function () {
-    return view('blade-scafolding.layout.404');
+    return view('blade-scafolding.404');
 });
 Route::get('/test', function () {
-    return view('blade-scafolding.layout.404');
+    return view('blade-scafolding.404');
 });
 
 //passing Variable Training
-// @Training
-Route:: get('/locally/{id}/{sayHello}', function ($id, $sayHello) {
-    return "hello" . "\n" . $sayHello . ".." . "\nYour ID is : " . $id;
-});
+//// @Training
+//Route:: get('/locally/{id}/{sayHello}', function ($id, $sayHello) {
+//    return "hello" . "\n" . $sayHello . ".." . "\nYour ID is : " . $id;
+//});
 
