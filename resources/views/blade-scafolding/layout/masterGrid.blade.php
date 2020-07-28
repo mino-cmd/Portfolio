@@ -25,8 +25,9 @@
     </div>
 </div>
 {{--Here is the MUSIC GRID Build--}}
-
-@include('blade-scafolding.layout.Listed_Music_Items')
+<div style="color: white">
+    @include('blade-scafolding.layout.Listed_Music_Items')
+</div>
 {{--Here is the MUSIC GRID Build--}}
 {{--**************--}}
 @include('blade-scafolding.layout.RedirectsHome')

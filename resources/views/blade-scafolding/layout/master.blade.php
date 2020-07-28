@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,7 +28,7 @@
     </div>
     @include('blade-scafolding.layout.sliderpage')
 </div>
-    @include('blade-scafolding.layout.Redirects')
+@include('blade-scafolding.layout.Redirects')
 <!--My Embedded FOOTER-->
 @include('blade-scafolding.layout.footer')
 </body>

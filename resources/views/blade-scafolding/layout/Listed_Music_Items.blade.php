@@ -3,7 +3,9 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <h1>AliBeats Hot in 2020🔥🔥</h1>
+        {{--*********A SOUNDCLOUD CONTENT***********--}}{{--*********A SOUNDCLOUD CONTENT***********--}}
+
+        <h1 class="HITTHIS">AliBeats Hot in 2020🔥🔥</h1>
         <div class="col-md-12">
             <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/842404039&color=%235c645c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -12,6 +14,8 @@
                    style="color: #cccccc; text-decoration: none;">VHS 2000</a> · <a
                         href="https://soundcloud.com/vhs2000/futurept2" title="Future.pt2 🍭🍭🍭" target="_blank"
                         style="color: #cccccc; text-decoration: none;">Future.pt2 🍭🍭🍭</a></div>
+            {{--*********A SOUNDCLOUD CONTENT***********--}}{{--*********A SOUNDCLOUD CONTENT***********--}}
+
             <div class="row">
                 <div class="col-md-6">
                     <span class="badge badge-pill badge-info">#Fast_PBM</span>
@@ -34,6 +38,8 @@
             </div>
         </div>
     </div>
+    {{--*********A SOUNDCLOUD CONTENT***********--}}{{--*********A SOUNDCLOUD CONTENT***********--}}
+
     <div class="row">
         <h1>AliBeats Hot in 2019🐤</h1>
         <div class="col-md-12">
@@ -45,6 +51,8 @@
                         href="https://soundcloud.com/vhs2000/salsa-ali-beats" title="SALSA- Ali beats" target="_blank"
                         style="color: #cccccc; text-decoration: none;">SALSA- Ali beats</a></div>
             <div class="row">
+                {{--*********A SOUNDCLOUD CONTENT***********--}}{{--*********A SOUNDCLOUD CONTENT***********--}}
+
                 <div class="col-md-6">
                     <span class="badge badge-pill badge-info">#Respect_To_latin_American_Culture</span>
                     <span class="badge badge-pill badge-info">#Ride This Wave 🌊</span>
@@ -66,6 +74,7 @@
             </div>
         </div>
     </div>
+    {{--*********A SOUNDCLOUD CONTENT***********--}}
     <div class="row">
         <h1>Tonie.22 Beats 🐱‍👤</h1>
         <div class="col-md-12">
@@ -78,6 +87,7 @@
                    style="color: #cccccc; text-decoration: none;">VHS 2000</a> · <a
                         href="https://soundcloud.com/vhs2000/upset" title="Line" target="_blank"
                         style="color: #cccccc; text-decoration: none;">Line</a></div>
+            {{--*********A SOUNDCLOUD CONTENT***********--}}
             <div class="row">
                 <div class="col-md-6">
                     <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
