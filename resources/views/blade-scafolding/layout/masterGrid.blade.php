@@ -16,10 +16,7 @@
         <div class="title">
             <!--Bootstrap Code-->
             <div class="alert" role="alert">
-                <?php
-                $str = array("Music Pisces");
-                echo $str[0];
-                ?>
+                @include('blade-scafolding.partials.MyArrays.OriginalProductionsHeading')
             </div>
         </div>
     </div>

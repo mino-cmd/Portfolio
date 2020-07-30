@@ -33,6 +33,7 @@ body {
 .alert {
     color: rgb(132, 129, 155);
     font-family: 'Raleway', sans-serif;
+    font-size: 50%;
 }
 
 .RightPicture {

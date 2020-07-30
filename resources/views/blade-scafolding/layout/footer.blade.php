@@ -14,7 +14,7 @@
         {{--     Enter Links    --}}
         {{--            --}}
     </div>
-    <div class="text-center text-danger">
+    <div class="text-center"style="color: darkkhaki">
         @2020 copyrights
     </div>
 </footer>

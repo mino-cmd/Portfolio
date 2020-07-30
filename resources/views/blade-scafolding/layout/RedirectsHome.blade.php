@@ -4,18 +4,18 @@
     <a href="/home" target="_blank" rel="import">
         <button type="button" class="btn btn-dark ButtonRedirect">
             <!--GO TO THE MusicGrid-->
-            Home
+            For working reasons
             <!--GO TO THE MusicGrid-->
         </button>
     </a>
-    <code style="display: block">Résumé</code>
+    <code class="Color_beneth_text" style="display: block">Résumé</code>
     <a href="/Osteopage" target="_blank" rel="import">
         <button type="button" class="btn btn-dark ButtonRedirect">
             <!--GO TO THE WEBSITE OSTEOAI.COM-->
-            Go to Osteo.AI
+            <code>App</code> Osteo.AI
             <!--GO TO THE WEBSITE OSTEOAI.COM-->
         </button>
     </a>
-    <code style="display: block"> a Private project that i want to finished</code>
+    <code class="Color_beneth_text" style="display: block"> a Private project that i want to finished</code>
 </div>
 </body>
