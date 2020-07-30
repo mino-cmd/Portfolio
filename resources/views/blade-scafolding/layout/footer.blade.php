@@ -1,5 +1,4 @@
 @include('blade-scafolding.partials.FooterHead')
-@include('blade-scafolding.partials.MyArrays.GreetUser')
 <!--*********************************-->
 <footer class="page-footer">
     <div class="movetheButton">

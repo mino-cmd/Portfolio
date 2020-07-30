@@ -6,10 +6,10 @@ body {
     height: 100%;
     margin: 0;
     background-color: rgba(44, 44, 41, 0.76) !important;
-    overflow-x: hidden;
     /*background-image: url("/assets/images/Ann.jpg");*/
     background-repeat: no-repeat;
     background-position: center top;
+    overflow-x: hidden;
 }
 
 
@@ -35,14 +35,16 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.RightPicture{
+.RightPicture {
 }
-.ContainerofBackgroundPictures{
+
+.ContainerofBackgroundPictures {
     border: solid black;
     position: relative;
     width: auto;
     height: auto;
 }
-.RightPicture{
+
+.RightPicture {
 
 }

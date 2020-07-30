@@ -39,51 +39,51 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-offset-0" id="CertiClick">
-                One of three columns
+                One of Four columns
                 <li class="media">
-                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
             <div class="col-sm-offset-1" id="ArbeitsClick">
-                One of three columns
+                One of Four columns
                 <li class="media">
-                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
             <div class="col-sm-offset-2" id="Bildungsclick">
-                One of three columns
+                One of Four columns
                 <li class="media">
-                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
             <div class="col-sm-offset-3" id="SklizSprechenClick">
-                One of three columns
+                One of Four columns
                 <li class="media">
-                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
-                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image"/>
+                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
         </div>

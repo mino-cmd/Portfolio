@@ -1,6 +1,8 @@
 
 body {
     background-color: transparent;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
 #_ContainerFluid_OfSlides {

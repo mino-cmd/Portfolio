@@ -5,7 +5,8 @@
         <button type="button" class="btn btn-dark ButtonRedirect">
             <!--GO TO THE MusicGrid-->
             Music
-            <!--GO TO THE MusicGrid-->
+            <!--GO TO THE MusicGrid
+            -->
         </button>
     </a>
     <code style="display: block">is where you can check out my music</code>
@@ -16,6 +17,6 @@
             <!--GO TO THE WEBSITE OSTEOAI.COM-->
         </button>
     </a>
-    <code style="display: block"> a Private project that i want to finished</code>
+    <code style="display: block"> a project for my buddy that we working on</code>
 </div>
 </body>

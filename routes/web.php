@@ -30,26 +30,26 @@ use Illuminate\Support\Facades\Route;
 //Route::resource('Posts', 'PostController');
 
 Route::get('/Osteopage', function () {
-    return view('blade-scafolding.Osteopage');
+    return view('blade-scafolding.layout.Osteopage');
 });
 Route::get('/home', function () {
-    return view('blade-scafolding.home');
+    return view('blade-scafolding.layout.master');
 });
 Route::get('/', function () {
-    return view('blade-scafolding.home');
+    return view('blade-scafolding.layout.master');
 });
 
 Route::get('/music', function () {
-    return view('blade-scafolding.masterGrid');
+    return view('blade-scafolding.layout.masterGrid');
 });
 Route::get('/Music', function () {
-    return view('blade-scafolding.masterGrid');
+    return view('blade-scafolding.layout.masterGrid');
 });
 Route::get('/404', function () {
-    return view('blade-scafolding.404');
+    return view('blade-scafolding.layout.errors');
 });
 Route::get('/test', function () {
-    return view('blade-scafolding.404');
+    return view('blade-scafolding.layout.errors');
 });
 
 //passing Variable Training

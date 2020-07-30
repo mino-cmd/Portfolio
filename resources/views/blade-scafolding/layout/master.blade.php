@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        {{--    SELFi : Under Construction --}}
+        {{--    SELFi --}}
 
         @include('blade-scafolding.layout.Selfi')
         {{--    SELFi --}}
