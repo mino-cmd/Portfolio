@@ -1,1 +1,1 @@
-@extends('blade-scafolding.layout.errors')
+@extends('errors.404')

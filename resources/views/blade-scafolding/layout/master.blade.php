@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hello World</title>
+    <title>Welcome 🎈</title>
     @include('blade-scafolding.partials.Coookiee')
     @include('blade-scafolding.partials.MainPageHeadLink')
     @include('blade-scafolding.partials.head')

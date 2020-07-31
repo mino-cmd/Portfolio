@@ -17,14 +17,28 @@ body {
     color: white;
 }
 
+#CertiClick, #ArbeitsClick, #Bildungsclick, #SklizSprechenClick {
+    height: auto;
+    width: 25%;
+    padding-top: 2%;
+}
+
 .media {
     width: 10%;
-    height: 150px;
+    height: 50%;
+}
+
+.media:hover {
+    height: 60%;
+    width: 40%;
+    transition: transform 1s ease-in;
+    padding: 0px 0px 40px 40px;
 }
 
 .media:active {
-    position: fixed;
-    width: 140%;
-    transition: width 1s ease-out;
-    top: 30%;
+    position: relative;
+    bottom: 50%;
+    width: 80%;
+    transform: scale(1, 1);
+    cursor: none;
 }

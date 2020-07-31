@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Music Page</title>
+    <title>Soundcloud embedded pieces</title>
     @include('blade-scafolding.partials.Coookiee')
     @include('blade-scafolding.partials.MusicGridHead')
     @include('blade-scafolding.partials.head')

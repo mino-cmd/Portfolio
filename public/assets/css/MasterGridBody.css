@@ -14,7 +14,9 @@ body {
 
 
 /*My Introduction Begins Here*/
-
+font-face-format{
+    content: none;
+}
 #container-fluid-for-content {
     background-color: #2c2b29;
     height: auto;

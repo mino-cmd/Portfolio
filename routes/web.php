@@ -45,12 +45,15 @@ Route::get('/music', function () {
 Route::get('/Music', function () {
     return view('blade-scafolding.layout.masterGrid');
 });
-Route::get('/404', function () {
-    return view('blade-scafolding.layout.errors');
-});
-Route::get('/test', function () {
-    return view('blade-scafolding.layout.errors');
-});
+//Route::get('/404', function () {
+//    return view('blade-scafolding.layout.errors');
+//});
+//Route::get('/test', function () {
+//    return view('blade-scafolding.layout.errors');
+//});
+
+Route::get('404',['as'=>'404','uses'=>'ErrorHandlerController@errorCode404']);
+Route::get('405',['as'=>'405','uses'=>'ErrorHandlerController@errorCode405']);
 
 //passing Variable Training
 //// @Training

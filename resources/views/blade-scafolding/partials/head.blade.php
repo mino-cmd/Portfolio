@@ -8,7 +8,9 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/assets/js/SlideScripts.js"></script>
 <!-- Fonts -->
-{{--Change to @Font_________Download and route pack--}}
 <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,600&display=swap" rel="stylesheet" type="text/css">
+<!--suppress HtmlUnknownTarget -->
+<link rel="shortcut icon" type="image/png" href="assets/images/RedRose2.svg.png">

@@ -5,23 +5,23 @@
     cursor: default;
     bottom: 0;
     position: fixed;
-    width: 100%;
+    width: 60%;
 }
 
-.movetheButton:hover {
+.ContactButton:hover {
     opacity: 100%;
 }
 
 .movetheButton {
     position: relative;
     padding: 0 0 0 40%;
-    opacity: 0.2;
-
+    width: 70%;
 }
 
 .ContactButton {
     color: rgb(255, 255, 255);
     background-color: #9c9c9c;
+    opacity: 0.2;
 }
 
 

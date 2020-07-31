@@ -16,6 +16,6 @@
             <!--GO TO THE WEBSITE OSTEOAI.COM-->
         </button>
     </a>
-    <code class="Color_beneth_text" style="display: block"> a Private project that i want to finished</code>
+    <code class="Color_beneth_text" style="display: block"> Working with my buddy on this one</code>
 </div>
 </body>
