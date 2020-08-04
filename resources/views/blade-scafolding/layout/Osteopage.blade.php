@@ -25,8 +25,7 @@
 <body>
 
 @include('blade-scafolding.layout.RedirectsHome')
-
-
+@include('blade-scafolding.Loader.Loader')
 <div class="Box1">
     <div class="parentitem">
         <!--suppress HtmlUnknownTarget -->

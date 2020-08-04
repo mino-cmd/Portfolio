@@ -2,7 +2,6 @@
 body {
     background-color: transparent;
     overflow-y: hidden;
-    scroll-behavior: smooth;
 }
 
 #_ContainerFluid_OfSlides {
@@ -24,21 +23,22 @@ body {
 }
 
 .media {
-    width: 10%;
-    height: 50%;
+    width: auto;
+    height: 30%;
+}
+.media img{
+    width: 40%;
+    height: unset;
 }
 
 .media:hover {
-    height: 60%;
-    width: 40%;
-    transition: transform 1s ease-in;
-    padding: 0px 0px 40px 40px;
+    transition: width  1s  ease-in;
+    padding: 0 0 0 10px;
 }
 
-.media:active {
+img:active {
     position: relative;
-    bottom: 50%;
-    width: 80%;
-    transform: scale(1, 1);
+    width: 100%;
+    bottom: 150px;
     cursor: none;
 }

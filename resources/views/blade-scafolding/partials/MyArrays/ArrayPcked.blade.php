@@ -1,5 +1,5 @@
 @include('blade-scafolding.partials.PHPArraysStyle')
-<html>
+<html lang="en">
 <body>
 <div class="toEdit">
     <?php

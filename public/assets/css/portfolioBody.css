@@ -13,6 +13,7 @@ body {
     /*background-image: url("/assets/images/Ann.jpg");*/
     background-repeat: no-repeat;
     background-position: center top;
+    scroll-behavior: smooth;
 }
 
 /*My Introduction Begins Here*/

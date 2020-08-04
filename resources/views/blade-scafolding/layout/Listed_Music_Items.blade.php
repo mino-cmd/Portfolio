@@ -1,6 +1,7 @@
 @include('blade-scafolding.partials.Extends_MUSIC_ITEMS')
 <!--suppress HtmlDeprecatedAttribute -->
 <body>
+@include('blade-scafolding.partials.MyArrays.Moto')
 <div class="container-fluid">
     <div class="row">
         {{--*********A SOUNDCLOUD CONTENT***********--}}{{--*********A SOUNDCLOUD CONTENT***********--}}

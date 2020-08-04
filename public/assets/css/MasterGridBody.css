@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 

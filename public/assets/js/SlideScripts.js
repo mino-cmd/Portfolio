@@ -78,4 +78,10 @@ function ToggleAll() {
     }
 }
 
-//    END
+//
+//
+//
+$(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+});
+END
