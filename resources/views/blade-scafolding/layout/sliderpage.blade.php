@@ -48,57 +48,47 @@
             <div class="col-sm-offset-0" id="CertiClick">
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/adiothman_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/Intermidiate_Java_OpenHPI__1.jpg"
+                         alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/third_certificate__1.jpg" alt="Generic placeholder image" style="max-width: 100%">
-                </li>
-                <li class="media">
-                    <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/Untitled_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/High_School_sector__Computer_Science__1.jpg"
+                         alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
             <div class="col-sm-offset-0" id="ArbeitsClick">
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/Greenhouse_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/Greenhouse_1.jpg" alt="Generic placeholder image"
+                         style="max-width: 100%">
                 </li>
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/Siemens_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
-                </li>
-                <li class="media">
-                    <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/Durstexpress_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/Durstexpress_1.jpg"
+                         alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
             <div class="col-sm-offset-2" id="Bildungsclick">
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/1.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/Folkwang_Universitt_der_Knste_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image" style="max-width: 100%">
-                </li>
-                <li class="media">
-                    <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/3.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/BAMF_Integrationkurs__1.jpg" alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
             <div class="col-sm-offset-3" id="SklizSprechenClick">
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/Deutsche_kurse_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/B2_Deutsch_Zertifikate_1.jpg"
+                         alt="Generic placeholder image" style="max-width: 100%">
                 </li>
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/SlideImages/live_Ton_mischung_1.jpg" alt="Generic placeholder image" style="max-width: 100%">
-                </li>
-                <li class="media">
-                    <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0" src="/assets/images/2.jpg" alt="Generic placeholder image" style="max-width: 100%">
+                    <img class="p-0" src="/assets/images/SlideImages/Sound_Design_1.jpg"
+                         alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>
         </div>
