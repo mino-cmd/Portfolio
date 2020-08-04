@@ -24,19 +24,22 @@ body {
 
 .media {
     width: auto;
-    height: 30%;
-}
-.media img{
-    width: 40%;
     height: unset;
+}
+.media .p-0{
+    width: 40%;
+}
+
+.p-0{
+    margin-bottom: 20px;
 }
 
 .media:hover {
-    transition: width  1s  ease-in;
+    transition: width  1s;
     padding: 0 0 0 10px;
 }
 
-img:active {
+.p-0:active {
     position: relative;
     width: 100%;
     bottom: 150px;

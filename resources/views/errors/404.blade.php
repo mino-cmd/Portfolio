@@ -1,5 +1,7 @@
-@include('blade-scafolding.partials.head')
 <!DOCTYPE html>
+<head>
+    <title>404</title>@include('blade-scafolding.partials.head')
+</head>
 <html lang="en">
 
 <head>
