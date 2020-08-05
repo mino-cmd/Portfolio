@@ -62,7 +62,8 @@ function ToggleAll() {
     const Element3 = document.getElementById("Bildungsclick");
     const Element4 = document.getElementById("SklizSprechenClick");
 
-    const ElementClicked = document.getElementsByClassName("navbar-brand");
+    const ElementClicked = document.getElementsByClassName("btn-secondary");
+
     if (ElementClicked.value === "Yes") {
         Element1.style.display = "Block";
         Element2.style.display = "Block";

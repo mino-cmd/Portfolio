@@ -7,4 +7,6 @@
 }
 .Color_beneth_text{
     color: darkgray;
+    font-style: oblique;
+    font-weight: bolder;
 }

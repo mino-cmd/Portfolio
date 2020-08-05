@@ -2,9 +2,9 @@
 <body>
 <div class="col-2 position-absolute MyPageRedirects">
     <a href="/home" target="_blank" rel="import">
-        <button type="button" class="btn btn-dark ButtonRedirect">
+        <button type="button" class="btn btn-light ButtonRedirect">
             <!--GO TO THE MusicGrid-->
-            For working reasons
+            👷‍♂️
             <!--GO TO THE MusicGrid-->
         </button>
     </a>

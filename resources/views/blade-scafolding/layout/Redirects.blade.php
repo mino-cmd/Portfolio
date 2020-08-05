@@ -11,7 +11,7 @@
     </a>
     <code class="Color_beneth_text" style="display: block">This is a Surprise ^_^</code>
     <a href="/Osteopage" target="_blank" rel="import">
-        <button type="button" class="btn btn-dark ButtonRedirect">
+        <button type="button" class="btn btn-light ButtonRedirect">
             <!--GO TO THE WEBSITE OSTEOAI.COM-->
             <code>App</code> Osteo.AI
             <!--GO TO THE WEBSITE OSTEOAI.COM-->
