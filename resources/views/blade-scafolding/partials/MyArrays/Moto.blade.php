@@ -8,4 +8,9 @@
     @endphp
 </div>
 </body>
+<style>
+    .text-center{
+        cursor: default;
+    }
+</style>
 </html>

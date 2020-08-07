@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
 <div class="container-fluid" id="container-fluid-for-content">
     @include('blade-scafolding.Loader.Loader')
     <div class="content">

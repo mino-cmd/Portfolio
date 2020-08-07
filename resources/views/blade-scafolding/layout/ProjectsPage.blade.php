@@ -20,10 +20,10 @@
     <span class="loader"><span class="loader-inner"></span></span>
 </div>
 {{----}}
-@include('blade-scafolding.layout.Aliontheheat')
-
+{{--FOOTER--}}
 @include('blade-scafolding.layout.footer')
-
+{{--    Paging To project page --}}
 @include('blade-scafolding.layout.Paging2')
-
+@include('blade-scafolding.layout.Aliontheheat')
 </body>
+</html>

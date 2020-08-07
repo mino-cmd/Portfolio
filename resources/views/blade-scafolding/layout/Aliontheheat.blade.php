@@ -2,12 +2,13 @@
 <body>
 <div class="col-2 position-absolute MyPageRedirects">
     <p style="font-family: 'Raleway', sans-serif;color: darkred;font-weight: lighter; font-size: large">
-        Please visit this Demo site for More music Content
+        Now we are going to step out to a new Ground
     </p>
     <a href="https://www.Aliontheheat.com/" target="_blank" rel="import">
-        <button type="button" class="btn btn-dark ButtonRedirect">
+        <button onClick="myFunction()" type="button" class="btn btn-dark ButtonRedirect">
             <!--Ali on the heat dot com-->
             Aliontheheat.com
             <!--Ali on the heat dot com-->
         </button>
     </a>
+</div>

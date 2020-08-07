@@ -4,7 +4,6 @@
 <div class="container-fluid">
     <div class="row">
         {{--*********A SOUNDCLOUD CONTENT***********--}}{{--*********A SOUNDCLOUD CONTENT***********--}}
-
         <h1 class="HITTHIS">AliBeats Hot in 2020🔥🔥</h1>
         <div class="col-md-12">
             <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"

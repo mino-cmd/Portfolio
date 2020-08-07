@@ -11,6 +11,11 @@
 </head>
 
 <body>
+{{----}}
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+{{----}}
 <div class="container-fluid" id="container-fluid-for-content">
     @include('blade-scafolding.Loader.Loader')
     <div class="content">
@@ -23,18 +28,11 @@
         </div>
 
         {{--    SELFi --}}
-
         @include('blade-scafolding.layout.Selfi')
         {{--    SELFi --}}
     </div>
     @include('blade-scafolding.layout.sliderpage')
 </div>
-{{----}}
-
-<div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
-{{----}}
 @include('blade-scafolding.layout.Redirects')
 <!--My Embedded FOOTER-->
 @include('blade-scafolding.layout.footer')
