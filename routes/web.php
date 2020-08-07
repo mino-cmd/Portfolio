@@ -45,6 +45,9 @@ Route::get('/music', function () {
 Route::get('/Music', function () {
     return view('blade-scafolding.layout.masterGrid');
 });
+Route::get('/ProjectsPage', function () {
+    return view('blade-scafolding.layout.ProjectsPage');
+});
 //Route::get('/404', function () {
 //    return view('blade-scafolding.layout.errors');
 //});

@@ -1,5 +1,4 @@
 @include('blade-scafolding.partials.slidestyleLINK')
-
 {{--Start--}}
 {{--Here we Build the Container for the Menue and slides--}}
 <div class="container-fluid" id="_ContainerFluid_OfSlides">
@@ -97,4 +96,3 @@
         </div>
     </div>
 </div>
-

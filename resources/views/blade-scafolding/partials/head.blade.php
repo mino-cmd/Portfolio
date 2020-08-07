@@ -11,10 +11,20 @@
 {{----}}
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 {{----}}
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+{{----}}
+<!--suppress HtmlUnknownTarget -->
 <script src="/assets/js/SlideScripts.js"></script>
+<!--suppress HtmlUnknownTarget -->
+<script src="/assets/js/Loadpage.js"></script>
+<!--suppress HtmlUnknownTarget -->
+<script src="/assets/js/HiddenTillLoaded.js"></script>
+{{----}}
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
+      rel="stylesheet">
 {{----}}
 <!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,600&display=swap" rel="stylesheet" type="text/css">
 <!--suppress HtmlUnknownTarget -->
 <link rel="shortcut icon" type="image/png" href="assets/images/RedRose2.svg.png">

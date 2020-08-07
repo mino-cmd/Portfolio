@@ -30,10 +30,8 @@
 {{--**************--}}
 @include('blade-scafolding.layout.RedirectsHome')
 {{--My Dynamic page Footer--}}
-
 @include('blade-scafolding.layout.footer')
 {{--My Dynamic page Footer--}}
-
 </body>
 
 </html>

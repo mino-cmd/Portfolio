@@ -1,0 +1,15 @@
+
+.Checky {
+    position: relative;
+    left: 50%;
+}
+.Checky2 {
+    bottom: 0;
+    position: fixed;
+    left: 50%;
+}
+
+.slow .toggle-group {
+    transition: left 0.7s;
+    -webkit-transition: left 0.7s;
+}

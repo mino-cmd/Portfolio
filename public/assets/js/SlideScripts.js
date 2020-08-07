@@ -82,7 +82,4 @@ function ToggleAll() {
 //
 //
 //
-$(window).on("load", function () {
-    $(".loader-wrapper").fadeOut("slow");
-});
-END
+// END

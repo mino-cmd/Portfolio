@@ -38,5 +38,9 @@
 @include('blade-scafolding.layout.Redirects')
 <!--My Embedded FOOTER-->
 @include('blade-scafolding.layout.footer')
+
+{{--    *****************--}}
+{{--    Paging To project page --}}
+@include('blade-scafolding.layout.Paging')
 </body>
 </html>
