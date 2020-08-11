@@ -19,13 +19,13 @@
     <link rel="shortcut icon" type="image/png" href="assets/images/RedRose2.svg.png">
     <!--This is Heads-->
     @include('blade-scafolding.partials.headOsteo')
+    @include('blade-scafolding.Loader.Loader')
 
 </head>
 
 <body>
 
 @include('blade-scafolding.layout.RedirectsHome')
-@include('blade-scafolding.Loader.Loader')
 <div class="Box1">
     <div class="parentitem">
         <!--suppress HtmlUnknownTarget -->
