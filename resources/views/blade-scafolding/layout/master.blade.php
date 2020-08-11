@@ -10,13 +10,8 @@
 
 </head>
 
-<body>
-{{----}}
-<div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
-{{----}}
-<div class="container-fluid" id="container-fluid-for-content">
+<body class="pd-fr-ng-spc">
+<div class="container-fluid pd-fr-ng-spc" id="container-fluid-for-content">
     @include('blade-scafolding.Loader.Loader')
     <div class="content">
         <!--laravel code-->
@@ -27,6 +22,12 @@
             </div>
         </div>
 
+        {{----}}
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        {{----}}
+
         {{--    SELFi --}}
         @include('blade-scafolding.layout.Selfi')
         {{--    SELFi --}}
@@ -34,11 +35,13 @@
     @include('blade-scafolding.layout.sliderpage')
 </div>
 @include('blade-scafolding.layout.Redirects')
+{{--Switch div--}}
+<div class="SwitchButtonDiv">
+    {{--    *****************--}}
+    {{--    Paging To project page --}}
+    @include('blade-scafolding.layout.Paging')
+</div>
 <!--My Embedded FOOTER-->
 @include('blade-scafolding.layout.footer')
-
-{{--    *****************--}}
-{{--    Paging To project page --}}
-@include('blade-scafolding.layout.Paging')
 </body>
 </html>

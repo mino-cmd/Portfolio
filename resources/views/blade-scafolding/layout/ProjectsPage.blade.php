@@ -7,6 +7,7 @@
     @include('blade-scafolding.partials.MainPageHeadLink')
     @include('blade-scafolding.partials.head')
     @include('blade-scafolding.partials.ExtendCssOfLOADER')
+    @include('blade-scafolding.partials.ExtendedFileForProjectPage')
 </head>
 
 <body>

@@ -2,7 +2,7 @@
 {{--Start--}}
 {{--Here we Build the Container for the Menue and slides--}}
 <div class="container-fluid" id="_ContainerFluid_OfSlides">
-    <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+    <nav class="navbar navbar-dark navbar-expand-sm _ChangeNav">
         <!--suppress JSUnresolvedFunction -->
         <a href="#" onclick="ToggleAll();" class="btn btn-sm btn-secondary"
            style="cursor: default; color: white;"> List All</a>
@@ -11,7 +11,7 @@
             <a href="#" onclick="TogglerCerti('CertiClick');">
                 <li class="nav-item CertificateButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="CertificatesClass"
-                            style=" background-color: transparent ;border: none"> Certificates /
+                            style=" background-color: transparent ;border: none"> Zertifikate /
                     </button>
                 </li>
             </a>
@@ -27,15 +27,7 @@
             <a href="#" onclick="ToggleBildungs('Bildungsclick');">
                 <li class="nav-item BildungButton" id="ListTextContainer">
                     <button value="Yes" type="button" id="BildungsClass"
-                            style="background-color: transparent ;border: none"> Bildung /
-                    </button>
-                </li>
-            </a>
-            <!--suppress JSUnresolvedFunction -->
-            <a href="#" onclick="ToggleSklizSprechen('SklizSprechenClick');">
-                <li class="nav-item SklizSprechenButton" id="ListTextContainer">
-                    <button value="Yes" type="button" id="SklzUSprechenClass"
-                            style="background-color: transparent; border: none"> Skills & Sprachen /
+                            style="background-color: transparent ;border: none"> Bildung
                     </button>
                 </li>
             </a>
@@ -78,18 +70,6 @@
                 <li class="media">
                     <!--suppress HtmlUnknownTarget -->
                     <img class="p-0 flipRight" src="/assets/images/SlideImages/BAMF_Integrationkurs__1.jpg"
-                         alt="Generic placeholder image" style="max-width: 100%">
-                </li>
-            </div>
-            <div class="col-sm-offset-3" id="SklizSprechenClick">
-                <li class="media">
-                    <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0 flipRight" src="/assets/images/SlideImages/B2_Deutsch_Zertifikate_1.jpg"
-                         alt="Generic placeholder image" style="max-width: 100%">
-                </li>
-                <li class="media">
-                    <!--suppress HtmlUnknownTarget -->
-                    <img class="p-0 flipRight" src="/assets/images/SlideImages/Sound_Design_1.jpg"
                          alt="Generic placeholder image" style="max-width: 100%">
                 </li>
             </div>

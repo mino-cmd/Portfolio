@@ -16,6 +16,10 @@ body {
     scroll-behavior: smooth;
 }
 
+.pd-fr-ng-spc {
+    padding-inline: 5% 5%;
+}
+
 /*My Introduction Begins Here*/
 
 .content {
@@ -40,4 +44,11 @@ body {
 .alert {
     color: rgb(132, 129, 155);
     font-family: 'Raleway', sans-serif;
+}
+
+.SwitchButtonDiv {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
 }

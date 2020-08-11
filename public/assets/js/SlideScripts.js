@@ -5,6 +5,7 @@
 //     });
 // });
 
+
 function TogglerCerti() {
     // $("#" + divId).toggle();
     const ShowCertiCards = document.getElementById("CertiClick");
@@ -44,23 +45,11 @@ function ToggleBildungs() {
     }
 }
 
-function ToggleSklizSprechen() {
-    const ShowotherCards = document.getElementById("SklizSprechenClick");
-    const _SklzUSprechenClass = document.getElementById("SklzUSprechenClass");
-    if (_SklzUSprechenClass.value === "Yes") {
-        ShowotherCards.style.display = "Block";
-        _SklzUSprechenClass.value = "No";
-    } else {
-        ShowotherCards.style.display = "None";
-        _SklzUSprechenClass.value = "Yes";
-    }
-}
 
 function ToggleAll() {
     const Element1 = document.getElementById("CertiClick");
     const Element2 = document.getElementById("ArbeitsClick");
     const Element3 = document.getElementById("Bildungsclick");
-    const Element4 = document.getElementById("SklizSprechenClick");
 
     const ElementClicked = document.getElementsByClassName("btn-secondary");
 
@@ -68,13 +57,11 @@ function ToggleAll() {
         Element1.style.display = "Block";
         Element2.style.display = "Block";
         Element3.style.display = "Block";
-        Element4.style.display = "Block";
         ElementClicked.value = "No";
     } else {
         Element1.style.display = "None";
         Element2.style.display = "None";
         Element3.style.display = "None";
-        Element4.style.display = "None";
         ElementClicked.value = "Yes";
     }
 }

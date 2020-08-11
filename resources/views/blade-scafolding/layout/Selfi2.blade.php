@@ -4,7 +4,7 @@
     <div class="thumbex position-absolute">
         <div class="thumbnail">
 
-            <img src="/assets/images/other/selfi.jpg" alt="Selfi of Developer"/>
+            <img src="/assets/images/Selfi2.jpeg" alt="Selfi of Developer"/>
         </div>
     </div>
 </div>

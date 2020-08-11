@@ -13,11 +13,11 @@
     outline: 2px solid transparent;
     outline-offset: -15px;
     box-shadow: 5px 10px 40px 5px transparent;
-    right: 2%;
-    bottom: 5%;
+    right: 10%;
+    bottom: 0;
     background-color: transparent;
+    border-radius: 100%;
     /*noinspection CssUnknownTarget*/
-    background-image: url("");
     background-size: 20%;
     background-repeat: revert;
 }
@@ -30,6 +30,7 @@
     opacity: 0.88;
     backface-visibility: hidden;
     transition: all 0.4s ease-out;
+    border-radius: 100%;
 }
 
 .thumbex .thumbnail img {
@@ -37,11 +38,12 @@
     z-index: 1;
     left: 50%;
     top: 50%;
-    height: 90%;
+    height: 70%;
     width: auto;
     transform: translate(-50%, -50%);
     backface-visibility: hidden;
     cursor: default;
 }
+
 /*Portfolios CSS*/
 /**/

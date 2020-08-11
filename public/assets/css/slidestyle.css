@@ -9,7 +9,7 @@ body {
 }
 
 .bg-dark {
-    width: 50%;
+    width: auto;
 }
 
 #CertificatesClass, #ArbeitClass, #BildungsClass, #SklzUSprechenClass {
@@ -26,16 +26,17 @@ body {
     width: auto;
     height: unset;
 }
-.media .p-0{
+
+.media .p-0 {
     width: 40%;
 }
 
-.p-0{
+.p-0 {
     margin-bottom: 20px;
 }
 
 .media:hover {
-    transition: width  1s;
+    transition: width 1s;
     padding: 0 0 0 10px;
 }
 
@@ -45,6 +46,7 @@ body {
     bottom: 150px;
     cursor: none;
 }
+
 .p-0.flipRight:active {
     position: relative;
     width: 100%;

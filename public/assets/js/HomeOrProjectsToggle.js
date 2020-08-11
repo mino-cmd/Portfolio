@@ -1,5 +1,5 @@
 function clickinner() {
-    const x = document.getElementsByClassName("Checky");
+    const x = document.getElementById("Checky");
     if (x === true) {
         window.location.href = '/';
     } else {
@@ -8,11 +8,20 @@ function clickinner() {
 }
 
 function clickinner2() {
-    const y = document.getElementsByClassName("Checky2");
-    if ( y === true) {
+    const y = document.getElementById("Checky2");
+    if (y === true) {
         window.location.href = '/ProjectsPage';
     } else {
         window.location.href = '/';
 
     }
 }
+
+//TODO: Test Action
+//
+// function JSme() {
+//     $('ThestrapsJStoggle').bootstrapToggle({
+//         on: 'true';
+//         off: 'false';
+//     })
+// }
