@@ -6,11 +6,11 @@
     @include('blade-scafolding.partials.Coookiee')
     @include('blade-scafolding.partials.MusicGridHead')
     @include('blade-scafolding.partials.head')
+    @include('blade-scafolding.Loader.Loader')
 </head>
 
 <body>
 <div class="container-fluid" id="container-fluid-for-content">
-    @include('blade-scafolding.Loader.Loader')
     <div class="content">
         <!--laravel code-->
         <div class="title">

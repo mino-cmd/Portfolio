@@ -7,12 +7,11 @@
     @include('blade-scafolding.partials.MainPageHeadLink')
     @include('blade-scafolding.partials.head')
     @include('blade-scafolding.partials.ExtendCssOfLOADER')
-
+    @include('blade-scafolding.Loader.Loader')
 </head>
 
 <body class="pd-fr-ng-spc">
 <div class="container-fluid pd-fr-ng-spc" id="container-fluid-for-content">
-    @include('blade-scafolding.Loader.Loader')
     <div class="content">
         <!--laravel code-->
         <div class="title">
@@ -21,13 +20,6 @@
                 @include('blade-scafolding.partials.MyArrays.ArrayPcked')
             </div>
         </div>
-
-        {{----}}
-        <div class="loader-wrapper">
-            <span class="loader"><span class="loader-inner"></span></span>
-        </div>
-        {{----}}
-
         {{--    SELFi --}}
         @include('blade-scafolding.layout.Selfi')
         {{--    SELFi --}}
