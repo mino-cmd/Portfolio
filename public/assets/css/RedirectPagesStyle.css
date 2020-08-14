@@ -1,11 +1,23 @@
-.MyPageRedirects{
+.MyPageRedirects {
     left: 70%;
     top: 30%;
 }
-.ButtonRedirect{
+
+.MyPageRedirects2 {
+    left: 70%;
+    top: 30%;
+    opacity: 5%;
+}
+
+.MyPageRedirects2:hover {
+    opacity: 100%;
+}
+
+.ButtonRedirect {
     color: darkkhaki;
 }
-.Color_beneth_text{
+
+.Color_beneth_text {
     color: darkgray;
     font-style: oblique;
     font-weight: bolder;

@@ -1,6 +1,6 @@
 @include('blade-scafolding.partials.ExtendsRedirects')
 <body>
-<div class="col-2 position-absolute MyPageRedirects">
+<div class="col-2 position-absolute MyPageRedirects2">
     <a href="/home" target="_blank" rel="import">
         <button type="button" class="btn btn-light ButtonRedirect">
             <!--GO TO THE MusicGrid-->

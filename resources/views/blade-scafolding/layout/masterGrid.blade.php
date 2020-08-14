@@ -22,7 +22,7 @@
     </div>
 </div>
 {{--Here is the MUSIC GRID Build--}}
-<div style="color: white">
+<div style="color: white; padding-left: 5%;padding-right: 5%">
     @include('blade-scafolding.layout.Listed_Music_Items')
 </div>
 {{--Here is the MUSIC GRID Build--}}
