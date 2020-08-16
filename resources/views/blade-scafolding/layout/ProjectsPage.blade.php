@@ -12,19 +12,15 @@
 
 <body>
 @include('blade-scafolding.partials.MyArrays.Moto')
-@include('blade-scafolding.Loader.Loader')
+@include('blade-scafolding.layout.Aliontheheat')
+@include('blade-scafolding.layout.VideoJumbotron')
+
 {{--    SELFi --}}
 @include('blade-scafolding.layout.Selfi2')
 {{--    SELFi --}}
-{{----}}
-<div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
-{{----}}
 {{--FOOTER--}}
 @include('blade-scafolding.layout.footer')
 {{--    Paging To project page --}}
 @include('blade-scafolding.layout.Paging2')
-@include('blade-scafolding.layout.Aliontheheat')
 </body>
 </html>

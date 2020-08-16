@@ -1,9 +1,9 @@
 @include('blade-scafolding.partials.ExtendsRedirects')
 <body>
 <div class="col-2 position-absolute MyPageRedirects">
-    <p style="font-family: 'Raleway', sans-serif;color: #d0caca;font-weight: lighter; font-size: large">
-        Now we are going to step out to a new Ground
-    </p>
+    <h3 class="text-light">
+        <code>Ongoing</code> ASP project
+    </h3>
     <a href="https://www.Aliontheheat.com/" target="_blank" rel="import">
         <button onClick="myFunction()" type="button" class="btn btn-dark ButtonRedirect">
             <!--Ali on the heat dot com-->
