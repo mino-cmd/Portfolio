@@ -48,9 +48,9 @@ body {
 }
 
 .p-0.flipRight:active {
-    position: relative;
-    width: 100%;
-    right: 60%;
+    position: absolute;
+    right: 40%;
+    width: 25%;
     bottom: 150px;
     cursor: none;
 }

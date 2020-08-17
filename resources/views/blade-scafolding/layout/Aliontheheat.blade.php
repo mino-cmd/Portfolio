@@ -7,7 +7,7 @@
     <a href="https://www.Aliontheheat.com/" target="_blank" rel="import">
         <button onClick="myFunction()" type="button" class="btn btn-dark ButtonRedirect">
             <!--Ali on the heat dot com-->
-            Aliontheheat.com
+           ➡ To Project
             <!--Ali on the heat dot com-->
         </button>
     </a>
