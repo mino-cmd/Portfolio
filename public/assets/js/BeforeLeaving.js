@@ -1,3 +1,3 @@
 function myFunction() {
-    alert("Hi :) we are leaving to a new site 🚀 \n\n Aliontheheat.com");
+    alert("Hi :) we are leaving to LiveStream ⏺  \n\n Https://www.SeceretSaucee.com");
 }

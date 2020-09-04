@@ -11,16 +11,14 @@
 </head>
 
 <body>
-@include('blade-scafolding.partials.MyArrays.Moto')
-@include('blade-scafolding.layout.Aliontheheat')
-@include('blade-scafolding.layout.VideoJumbotron')
 
-{{--    SELFi --}}
-@include('blade-scafolding.layout.Selfi2')
-{{--    SELFi --}}
-{{--FOOTER--}}
-@include('blade-scafolding.layout.footer')
-{{--    Paging To project page --}}
-@include('blade-scafolding.layout.Paging2')
+    @include('blade-scafolding.layout.Aliontheheat')
+    @include('blade-scafolding.layout.VideoJumbotron')
+    {{--    SELFi --}}
+    {{-- @include('blade-scafolding.layout.Selfi2') --}}
+    {{--    SELFi --}}
+    {{--FOOTER--}}
+    @include('blade-scafolding.layout.footer')
 </body>
+
 </html>
