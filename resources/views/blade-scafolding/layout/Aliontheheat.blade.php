@@ -8,10 +8,10 @@
         <h3 class="text-light">
             <code>Livestream</code>
         </h3>
-        <a href="https://www.Aliontheheat.com/" target="_blank" rel="import">
+        <a href="https://www.Seceretsaucee.com/" target="_blank" rel="import">
             <button onClick="myFunction()" type="button" class="btn btn-dark ButtonRedirect">
                 <!--Ali on the heat dot com-->
-                https://www.Secretsaucee.com
+                https://www.Seceretsaucee.com
                 <!--Ali on the heat dot com-->
             </button>
         </a>

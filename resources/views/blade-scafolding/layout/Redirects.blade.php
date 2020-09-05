@@ -12,8 +12,8 @@
             </button>
         </a>
         <code class="Color_beneth_text" style="display: block"><hr/> </code>
-        <a href="/Osteopage" target="_blank" rel="import">
-            <button type="button" class="btn btn-light ButtonRedirect">
+        <a href="https://www.OsteoAI.com/" target="_blank" rel="import">
+                        <button type="button" class="btn btn-light ButtonRedirect">
                 <!--GO TO THE WEBSITE OSTEOAI.COM-->
                 <code>Welcome Website for an ios App</code> Osteo.AI
                 <!--GO TO THE WEBSITE OSTEOAI.COM-->
